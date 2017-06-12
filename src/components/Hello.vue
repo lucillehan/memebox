@@ -21,6 +21,7 @@
 </template>
 
 <script>
+import Homeheader from "./components/HomeHeader.vue"
 export default {
   name: 'hello',
   data () {

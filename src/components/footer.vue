@@ -1,37 +1,23 @@
 <template>
 	<div class="footer">
-		<ul>
-			<li>
-				<router-link to="" class="active">
-					<i class="iconfont icon-shouye"></i>
-					<span>首页</span>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<i class="iconfont icon-shouye"></i>
-					<span>分类</span>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<i class="iconfont icon-shouye"></i>
-					<span>发现</span>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<i class="iconfont icon-shouye"></i>
-					<span>购物车</span>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<i class="iconfont icon-shouye"></i>
-					<span>我哒</span>
-				</router-link>
-			</li>
-		</ul>
+		<mt-tabbar v-model="selected">
+		  <mt-tab-item id="外卖">
+		    <img slot="icon" src="">
+		    外卖
+		  </mt-tab-item>
+		  <mt-tab-item id="订单">
+		    <img slot="icon" src="">
+		    订单
+		  </mt-tab-item>
+		  <mt-tab-item id="发现">
+		    <img slot="icon" src="">
+		    发现
+		  </mt-tab-item>
+		  <mt-tab-item id="我的">
+		    <img slot="icon" src="">
+		    我的
+		  </mt-tab-item>
+		</mt-tabbar>
 	</div>
 </template>
 
@@ -39,7 +25,7 @@
 	export default {
 	  name: 'footer',
 	  data(){
-	  	return {options:['首页','分类','发现','购物车','我哒']}
+	  	return {}
 	  }
 	}
 </script>
