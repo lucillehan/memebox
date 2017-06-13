@@ -9,12 +9,23 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: Home,
+      beforeEnter: (to, from, next) => {
+        document.getElementsByTagName("html")[0].style.fontSize = '100px'
+        next();
+        
+      }
     },
     {
     	path:'/list',
     	name:'List',
-    	component:List
+    	component:List,
+      beforeEnter: (to, from, next) => {
+
+        document.getElementsByTagName("html")[0].style.fontSize = '20px'
+        next();
+        
+      }
     }
   ]
 })

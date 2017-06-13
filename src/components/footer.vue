@@ -1,21 +1,25 @@
 <template>
 	<div class="footer">
 		<mt-tabbar v-model="selected">
-		  <mt-tab-item id="外卖">
-		    <img slot="icon" src="">
-		    外卖
+		  <mt-tab-item id="home">
+		  <i class="iconfont icon-shouye"></i>
+		    首页
 		  </mt-tab-item>
-		  <mt-tab-item id="订单">
-		    <img slot="icon" src="">
-		    订单
+		  <mt-tab-item id="sort">
+		    <i class="iconfont icon-fenlei"></i>
+		    分类
 		  </mt-tab-item>
-		  <mt-tab-item id="发现">
-		    <img slot="icon" src="">
+		  <mt-tab-item id="find">
+		    <i class="iconfont icon-faxian"></i>
 		    发现
 		  </mt-tab-item>
-		  <mt-tab-item id="我的">
-		    <img slot="icon" src="">
-		    我的
+		  <mt-tab-item id="cart">
+		    <i class="iconfont icon-gouwuche"></i>
+		    购物车
+		  </mt-tab-item>
+		  <mt-tab-item id="mine">
+		    <i class="iconfont icon-xiaolian"></i>
+		    我哒
 		  </mt-tab-item>
 		</mt-tabbar>
 	</div>
@@ -26,41 +30,31 @@
 	  name: 'footer',
 	  data(){
 	  	return {
-	  		selected:''
+	  		selected:"home"
 	  	}
-	  }
+	  },
+	  beforeCreate(){
+	  		
+			// document.getElementsByTagName("html")[0].style.fontSize = '100px'
+		}
 	}
 </script>
 
 <style scoped>
 	.footer{
-	  height: 50px;
+	  height: .5rem;
+	  z-index: 10;
 	}
-	ul{
-		height: 100%;
-		display: flex;
-	}
-	ul li{
-		list-style: none;
-		flex:1;
-	}
-	ul li  a{
-		display: block;
-		text-decoration: none;
-		color:#AAAAAA;
-		width: 100%;
-		height: 100%;
-	}
-	.active{
+	.footer .mint-tabbar .is-selected{
 		color:#FE5173;
 	}
-	ul li  a i{
+	.mint-tab-item{
+		padding: 0;
+	}
+	.mint-tab-item-label i{
 		font-size: 27px;
 		display: block;
 		margin-top: 10px;
 	}
-	ul li  a span{
-		display: block;
-		font-size: 12px;
-	}
+	
 </style>
