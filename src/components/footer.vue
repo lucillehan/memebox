@@ -25,12 +25,14 @@
 	export default {
 	  name: 'footer',
 	  data(){
-	  	return {}
+	  	return {
+	  		selected:''
+	  	}
 	  }
 	}
 </script>
 
-<style>
+<style scoped>
 	.footer{
 	  height: 50px;
 	}
