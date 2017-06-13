@@ -1,7 +1,7 @@
 <template>
 	<div class="footer">
 		<mt-tabbar v-model="selected">
-		  <mt-tab-item id="home" class="active">
+		  <mt-tab-item id="home">
 		  <i class="iconfont icon-shouye"></i>
 		    首页
 		  </mt-tab-item>
@@ -29,7 +29,9 @@
 	export default {
 	  name: 'footer',
 	  data(){
-	  	return {}
+	  	return {
+	  		selected:"home"
+	  	}
 	  }
 	}
 </script>
@@ -38,26 +40,11 @@
 	.footer{
 	  height: .5rem;
 	}
-	/*ul{
-		height: 100%;
-		display: flex;
-	}
-	ul li{
-		list-style: none;
-		flex:1;
-	}
-	ul li  a{
-		display: block;
-		text-decoration: none;
-		color:#AAAAAA;
-		width: 100%;
-		height: 100%;
-	}*/
-	.active{
+	.footer .mint-tabbar .is-selected{
 		color:#FE5173;
 	}
 	.mint-tab-item{
-		padding: 0
+		padding: 0;
 	}
 	.mint-tab-item-label i{
 		font-size: 27px;
