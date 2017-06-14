@@ -1,19 +1,27 @@
 <template>
-	<div class="home">
-		我是列表
-		
-	</div>
+<div class="ListBox">
+
+		<Search></Search>	
+		<Tab></Tab>
+		<Footer></Footer>
+</div>
+ 	
+
 </template>
 
 <script>
+import Tab from './Tab.vue'
+import Search from './Search.vue'
+ import Footer from './Footer.vue'
 	export default{
 		name:'list',
-		components:{  }
+		components:{Tab,Search,Footer}
 	}	
 </script>
 
-<style>
-	.home{
-		flex:1;
-	}
+<style scoped> 
+body{
+	font-size: 20px!important;
+}
+ 
 </style>

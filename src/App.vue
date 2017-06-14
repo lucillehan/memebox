@@ -1,21 +1,17 @@
 <template>
    <div id="app">
-
+  
        <router-view>
          
        </router-view>
-       <Footer/>
+     
     </div>
 </template>
 
 
 <script>
-  import Footer from './components/footer.vue'
-  
-  export default {
-    name: 'app',
-    components:{ Footer }
-  }
+
+   
 </script>
 
 
@@ -25,7 +21,7 @@
   margin:0;
 }
 html{
-  font-size: 100px;
+  font-size:100px;
   
 }
 html,body{

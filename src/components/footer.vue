@@ -27,29 +27,37 @@
 
 <script>
 	export default {
-	  name: 'footer',
+	  name: 'Footer',
 	  data(){
 	  	return {
 	  		selected:"home"
 	  	}
-	  }
+	  },
+	  
 	}
 </script>
 
-<style>
+<style scoped>
 	.footer{
 	  height: .5rem;
+	  z-index: 10;
 	}
 	.footer .mint-tabbar .is-selected{
 		color:#FE5173;
 	}
 	.mint-tab-item{
 		padding: 0;
+		color: #b6b6b6;
+
 	}
 	.mint-tab-item-label i{
 		font-size: 27px;
 		display: block;
-		margin-top: 10px;
+		margin: 7px;
 	}
-	
+	.iconfont{
+		font-weight: bold;
+		 
+	}
+	 
 </style>

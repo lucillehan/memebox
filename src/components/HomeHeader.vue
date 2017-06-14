@@ -1,13 +1,5 @@
 <template>
 	<div class="homeheader">
-		<!-- <mt-header title="">
-		  <router-link to="/" slot="left">
-		    <mt-button><img src="http://img-cn1001.memebox.com/media/app/default/_banner.png" alt=""></mt-button>
-		  </router-link>
-		  <input type="text" value="搜索商品品牌">
-		  <mt-button slot="right"><i class="iconfont icon-iconfont"></i></mt-button>
-		</mt-header> -->
-
 		<div class="header">
 			<div class="logo"><img src="../assets/logo.jpg" alt=""></div>
 			<div class="center"><i class="iconfont icon-sou"></i><input type="text"></div>
@@ -17,10 +9,13 @@
 </template>
 
 <script>
-import jsonp from 'jsonp';
-// url="https://app.cn.memebox.com/h5/view/index?type=1&isNew=1"
+
+  
+ import jsonp from 'jsonp';
+ 
 	export default{
-		name:'homeheader',
+		name:'Homeheader',
+		 
 		data(){
 			return {
 				banImgs:[]
@@ -84,9 +79,10 @@ import jsonp from 'jsonp';
 		vertical-align: middle;
 		width: 85%;
 		height: .3rem;
-		line-height: .3rem;
+		/*line-height: .3rem;*/
 		border: none;
 		border: 0;
+		font-size: .12rem;
 	}
 	.right{
 		/*width: .2rem;*/
