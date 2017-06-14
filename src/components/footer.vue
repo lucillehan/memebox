@@ -1,14 +1,23 @@
 <template>
 	<div class="footer">
 		<mt-tabbar v-model="selected">
-		  <mt-tab-item id="home">
-		  <i class="iconfont icon-shouye"></i>
-		    首页
-		  </mt-tab-item>
-		  <mt-tab-item id="sort">
-		    <i class="iconfont icon-fenlei"></i>
-		    分类
-		  </mt-tab-item>
+			<!-- <router-link to="/"> -->
+			  <mt-tab-item id="home">
+			  	
+				  <i class="iconfont icon-shouye"></i>
+				    首页
+				
+			  </mt-tab-item>
+			<!-- </router-link> -->
+
+		  <!-- <router-link to="/List"> -->
+			  <mt-tab-item id="sort">
+				    <i class="iconfont icon-fenlei"></i>
+				    分类
+			  </mt-tab-item>
+		  <!-- </router-link> -->
+		  
+
 		  <mt-tab-item id="find">
 		    <i class="iconfont icon-faxian"></i>
 		    发现
