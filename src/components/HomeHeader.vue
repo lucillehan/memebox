@@ -39,6 +39,9 @@
 		height: .44rem;
 		background: #95775F;
 	}*/
+	.mint-swipe-indicators{
+		bottom: -.2rem;
+	}
 	.logo, .center, .right{
 		display: inline-block;
 		line-height: 0;

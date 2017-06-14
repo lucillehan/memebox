@@ -25,7 +25,6 @@ export default new Router({
     	name:'List',
     	component:List,
       beforeEnter: (to, from, next) => {
-
         document.getElementsByTagName("html")[0].style.fontSize = '20px'
         next();
         

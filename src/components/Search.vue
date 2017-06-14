@@ -22,9 +22,9 @@
 </script>
 
 <style> 
-body{
+/*body{
 	font-size: 20px!important;	 
-}
+}*/
 	.home{
 		flex:1;
 	}

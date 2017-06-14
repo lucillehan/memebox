@@ -3,72 +3,22 @@
 		<Homeheader></Homeheader>
 		<section>
 			<mt-swipe :auto="4000">
-			<mt-swipe-item><img src="http://f11.baidu.com/it/u=1981748892,3031683197&fm=72"/></mt-swipe-item>
-			<mt-swipe-item><img src="http://f11.baidu.com/it/u=1981748892,3031683197&fm=72"/></mt-swipe-item>
-			<mt-swipe-item><img src="http://f11.baidu.com/it/u=1981748892,3031683197&fm=72"/></mt-swipe-item>
-		</mt-swipe>
+				<mt-swipe-item v-for="item in this.ban"><img :src="item.banner_img"/></mt-swipe-item>
+			</mt-swipe>
 		
 		
 
 		<ul class="menu">
-			<li>
+			<li v-for="item in this.menu[2].items">
 				<router-link to="">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/3/30/10/2017330104938icon_1%403x.png" alt="">
-					<p>幸运抽奖</p>
+					<img :src="item.icon_img" alt="">
+					<p>{{ item.icon_title }}</p>
 				</router-link>
 			</li>
-			<li>
+			<li v-for="item in this.menu[3].items">
 				<router-link to="">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/3/30/10/2017330104939icon_2%403x.png" alt="">
-					<p>幸运抽奖</p>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/3/30/11/2017330111635icon_3%403x.png" alt="">
-					<p>幸运抽奖</p>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/3/30/10/2017330104941icon_4%403x.png" alt="">
-					<p>幸运抽奖</p>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/3/30/10/2017330104943icon_5%403x.png" alt="">
-					<p>幸运抽奖</p>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/3/30/10/201733010576icon_1.png" alt="">
-					<p>幸运抽奖</p>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/3/30/10/201733010578icon_2.png" alt="">
-					<p>幸运抽奖</p>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/3/30/10/201733010578icon_3.png" alt="">
-					<p>幸运抽奖</p>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/3/30/10/2017330105710icon_4.png" alt="">
-					<p>幸运抽奖</p>
-				</router-link>
-			</li>
-			<li>
-				<router-link to="">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/3/30/10/2017330105710icon_5.png" alt="">
-					<p>幸运抽奖</p>
+					<img :src="item.icon_img" alt="">
+					<p>{{ item.icon_title }}</p>
 				</router-link>
 			</li>
 		</ul>
@@ -78,20 +28,21 @@
 
 		<div class="tuijian">
 			<div class="lt">
-				<img src="http://img001.cn.memebox.com/img/activity/2017/6/5/18/201765182647%E6%8B%BC%E6%8E%A5banner_01.jpg" />
+				<img :src="this.menu[7].items[0].special_img" />
 			</div>
 			<div class="rt">
 				<div class="rt-1">
-					<img src="http://img001.cn.memebox.com/img/activity/2017/6/5/18/201765182647%E6%8B%BC%E6%8E%A5banner_02.jpg">
+					<img :src="this.menu[7].items[1].special_img">
 				</div>
 				<div class="rt-2">
-					<div class="rq"><img src="http://img001.cn.memebox.com/img/activity/2017/6/5/18/201765182647%E6%8B%BC%E6%8E%A5banner_03.jpg" alt=""></div>
-					<div class="zx"><img src="http://img001.cn.memebox.com/img/activity/2017/6/12/9/20176129594104.jpg" alt=""></div>
+					<div class="rq"><img :src="this.menu[7].items[2].special_img"  alt=""></div>
+					<div class="zx"><img :src="this.menu[7].items[3].special_img" alt=""></div>
 				</div>
 			</div>
 		</div>
-
-		<div class="space"></div>
+		
+		<div class="sp-gray5"></div>
+		<div class="sp-white10"></div>
 
 		<!-- 横向滚动 -->
 		<div class="miao">
@@ -106,34 +57,21 @@
 			</div>
 			<div class="listInfo">
 				<ul class="scroll1">
-					<li>
+					<li v-for="item in this.miao">
 						<router-link to="">
 							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
+								<img :src="item.imgUrl">
 							</div>
 							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
+								<div class="name">{{ item.name }}</div>
 								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
+									￥<span class="rate">{{ item.price }}</span><del>￥{{ item.originPrice }}</del>
 								</div>
 								<button>马上抢</button>
 							</div>
 						</router-link>
 					</li>
-					<li>
-						<router-link to="">
-							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
-							</div>
-							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
-								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
-								</div>
-								<button>马上抢</button>
-							</div>
-						</router-link>
-					</li>
+					
 				</ul>
 			</div>
 			<router-link class="see-more" to="">查看更多 ></router-link>
@@ -231,10 +169,10 @@
 			</div>
 			<div class="listInfo-tj">
 				<ul class="scroll2">
-					<li>
+					<li v-for="item in this.miao">
 						<router-link to="">
 							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
+								<img src="">
 							</div>
 							<div class="rt-info">
 								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
@@ -516,6 +454,7 @@
 import Homeheader from "./HomeHeader.vue"
 import jsonp from "jsonp"
 import Footer from './Footer.vue'
+import Vue from "vue"
 
 // 首页：url="https://app.cn.memebox.com/h5/view/index?type=1&isNew=1"
 	export default{
@@ -523,11 +462,13 @@ import Footer from './Footer.vue'
 		components:{ Homeheader,Footer },
 		data(){
 			return {
-				data:''
+				ban:'',
+				menu:'',
+				miao:''
 			}
 		},
 		created(){
-			var url = "https://app.cn.memebox.com/h5/view/index?type=1&isNew=1"
+			// var url = "https://app.cn.memebox.com/h5/view/index?type=1&isNew=1"
 
 			// jsonp(url,null,(err,res)=> {
 			// 	if(err){
@@ -535,9 +476,28 @@ import Footer from './Footer.vue'
 			// 	}else{}
 			// })
 
-			// var url = "../../static/json/video.json"
-			// console.log(jsonp)
+			//轮播和菜单数据
+			var url = "../../static/json/home.json"
+			Vue.axios.get(url).then(function(res){
+				// console.log(res.data.data.components)
+				return res.data.data.components
+			}).then((data)=>{
+				// console.log(data)
+				this.ban = data[0].items;
+				this.menu = data;
+				
+			})
 
+
+			//超秒专区
+			var url = "../../static/json/chaomiaozq.json"
+			Vue.axios.get(url).then(function(res){
+				// console.log(res)
+				return res.data.data.productList
+			}).then((data)=>{
+				console.log(data)
+				this.miao = data
+			})
 
 		}
 	}
@@ -555,6 +515,14 @@ import Footer from './Footer.vue'
 	.space{
 		height: .1rem;
 		background: #F5F5F5;
+	}
+	.sp-gray5{
+		height: .05rem;
+		background: #F5F5F5;
+	}
+	.sp-white10{
+		height: .1rem;
+		background: white;
 	}
 	.home{
 		flex:1;
@@ -608,7 +576,7 @@ import Footer from './Footer.vue'
 		font-size: .12rem;
 	}
 	.tuijian{
-		margin: 0 auto;
+		margin: .1rem auto;
 		width: 3.46rem;
 		height: 2rem;
 		border-radius: .05rem;
@@ -661,8 +629,8 @@ import Footer from './Footer.vue'
 	}
 	.miao-zq{ width:.9rem; height: .2rem; display: inline-block; float: left; font-size: .2rem; background: url(http://m.cn.memebox.com/images/app/home/include/flashsale.png?t=2017525110) no-repeat center center; background-size: 100% 100%; }
 	.rt-timer{ width: 1.89rem; height: .2rem; float: right; font-size: .12rem; text-align: right; }
-	.scroll1{ width: 300%; height: 1.2rem; display: flex; padding: .1rem 0;  }
-	.scroll1 li{width: 2.9rem; height: 100%; line-height: 0; border: 1px solid #F0F0F2; list-style: none;}
+	.scroll1{ width: 400%; height: 1.4rem; display: flex; padding: .1rem 0;  }
+	.scroll1 li{width: 2.9rem; height: 100%; line-height: 0; border: 1px solid #F0F0F2; list-style: none; margin-right: .1rem;}
 	.scroll1 li a{
 		display: block;
 		width: 100%;
@@ -836,7 +804,7 @@ import Footer from './Footer.vue'
 
 	}
 	.favor-list ul li{
-		width: 44%;
+		width: 49%;
 		padding: .1rem;
 		background: white;
 		margin-bottom: .1rem;
@@ -855,7 +823,7 @@ import Footer from './Footer.vue'
 		width: 100%;
 	}
 	.tj-name{
-		font-size: .14rem;
+		font-size: .12rem;
 		line-height: .15rem;
 		margin: .08rem 0;
 		color: #333333;
