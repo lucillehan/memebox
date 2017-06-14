@@ -7,8 +7,6 @@ import { Swipe, SwipeItem,Tabbar, TabItem,Header,Button } from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
 
-
-
 Vue.config.productionTip = false
 
 Vue.component(Swipe.name, Swipe)
