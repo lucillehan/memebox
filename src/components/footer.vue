@@ -14,33 +14,76 @@
 		    发现
 		  </mt-tab-item>
 		  <mt-tab-item id="我的">
-		    <img slot="icon" src="">
-		    我的
+		    <img slot="icon" @click="toggleLogin" src="">
+		        我的
+		    <mt-popup v-model="popupVisible" position='bottom' v-if="show">
+  				<div id="login">
+  					<!--<h1>跳转登录</h1>
+  					<button @click="close">关闭</button>-->
+  					<Login/>
+  				</div>
+			</mt-popup>
 		  </mt-tab-item>
 		</mt-tabbar>
 	</div>
 </template>
 
 <script>
+	import Login from './Login.vue'
+	
 	export default {
 	  name: 'footer',
 	  data(){
-	  	return {}
-	  }
+	  	return {
+	  		
+	  		selected:"外卖",
+	  		
+	  		popupVisible:false,
+	  		
+	  		show:true
+	  		
+	  	}
+	  },
+	  
+	  methods:{
+			
+		  toggleLogin(){
+		  	
+		  	console.log("ok");
+		  	
+		  	this.show=true;
+		  	
+			this.popupVisible=true;
+		  	
+		  },
+		  
+		  close(){
+		 	
+		  	this.show=false;
+		  	
+		  }
+		  
+	  },
+	  
+	  components:{ Login }
+		  
 	}
 </script>
 
-<style>
+<style scoped="scoped">
 	.footer{
 	  height: 50px;
 	}
-	ul{
+	html{
+		font-size: 100px;
+	}
+	/*ul{
 		height: 100%;
 		display: flex;
 	}
 	ul li{
 		list-style: none;
-		flex:1;
+		
 	}
 	ul li  a{
 		display: block;
@@ -60,5 +103,14 @@
 	ul li  a span{
 		display: block;
 		font-size: 12px;
+	}*/
+	.v-modal{
+		
+		background: #dedede;
+		opacity: 1;
+	}
+	#login{
+		width: 100vw;height: 100vh;
+		
 	}
 </style>
