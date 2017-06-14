@@ -27,16 +27,13 @@
 
 <script>
 	export default {
-	  name: 'footer',
+	  name: 'Footer',
 	  data(){
 	  	return {
 	  		selected:"home"
 	  	}
 	  },
-	  beforeCreate(){
-	  		
-			// document.getElementsByTagName("html")[0].style.fontSize = '100px'
-		}
+	  
 	}
 </script>
 
@@ -50,11 +47,17 @@
 	}
 	.mint-tab-item{
 		padding: 0;
+		color: #b6b6b6;
+
 	}
 	.mint-tab-item-label i{
 		font-size: 27px;
 		display: block;
-		margin-top: 10px;
+		margin: 7px;
 	}
-	
+	.iconfont{
+		font-weight: bold;
+		 
+	}
+	 
 </style>

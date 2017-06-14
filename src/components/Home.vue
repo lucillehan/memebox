@@ -114,15 +114,20 @@
 			</div>
 		</div>
 		</section>
+
+
+
+			<Footer></Footer>
 	</div>
 </template>
 
 <script>
 import Homeheader from "./HomeHeader.vue"
+ import Footer from './Footer.vue'
 // 首页：url="https://app.cn.memebox.com/h5/view/index?type=1&isNew=1"
 	export default{
 		name:'home',
-		components:{ Homeheader }
+		components:{ Homeheader,Footer }
 	}	
 </script>
 

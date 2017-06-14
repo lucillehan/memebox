@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import List from '@/components/list'
+import Goods from '@/components/Goods'
+import Search from '@/components/Search'
 import Home from '@/components/Home'
 Vue.use(Router)
 
@@ -26,6 +28,17 @@ export default new Router({
         next();
         
       }
-    }
+    },
+     {
+      path:'/Goods',
+      name:'Goods',
+      component:Goods,
+      beforeEnter: (to, from, next) => {
+
+        document.getElementsByTagName("html")[0].style.fontSize = '20px'
+        next();
+        
+      }
+    } 
   ]
 })

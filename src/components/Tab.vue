@@ -5,8 +5,6 @@
 				    <a href="#tab2" class="tab-link button">功效</a>
 				    <a href="#tab3" class="tab-link button">品牌</a>
 				  </div>
-		
-
 				  <div class="content-block">
 				    <div class="tabs">
 				      <div id="tab1" class="tab active">
@@ -218,19 +216,18 @@
 </template>
 
 <script>
-import jsonp from 'jsonp';
- 
+
 	export default{
 		name:'Tab',
 		 
 	}
 </script>
 
-<style>
-	 	
+<style> 	
 	.content{
 		min-height: 200vh;
 	    overflow-y: scroll;
+	    top: 3rem;
 	 }
 	 .buttons-tab .button.active{
 	 	color: #FF5073;
@@ -245,6 +242,7 @@ import jsonp from 'jsonp';
 	 	margin: 2.5rem 0;
 	 	min-height: 200vh;
 	    overflow-y: scroll;
+	    top: .5rem;
 	 }
 	  .content-block p{
 	 	float: left;

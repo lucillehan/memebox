@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import { Swipe, SwipeItem,Tabbar, TabItem,Header,Button,Search,Cell, Navbar  } from 'mint-ui'
+import { Swipe, SwipeItem,Tabbar, TabItem,Header,Button,Search,Cell, Navbar} from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
