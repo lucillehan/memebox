@@ -223,7 +223,7 @@
 	}
 </script>
 
-<style> 	
+<style scoped> 	
 	.content{
 		min-height: 200vh;
 	    overflow-y: scroll;
@@ -250,9 +250,7 @@
 	 .ListBox{
 	 	flex: 1;
 	 }
-	 .bar-header-secondary~.content {
-	 	top: 3.2rem;
-	 }
+	 
 	 p{
 	 	margin: .5rem 0;
 	 }
