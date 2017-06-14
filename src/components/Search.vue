@@ -1,5 +1,5 @@
 <template>
-<div class="ListBox">
+ 
 <div class="bar bar-header-secondary">
 
 		  <div class="searchbar">
@@ -12,7 +12,7 @@
 		      <input type="search" id='search' placeholder='输入关键字...'/>
 		    </div>
 		  </div>
-		</div>	
+		 
 
 </div>
  	
@@ -33,7 +33,13 @@ body{
 		flex:1;
 	}
 	 .bar-header-secondary {
-	 	top: 1rem;
+	 	top: .5rem;
+	 }
+	 .bar .searchbar .search-input input{
+	 	background: #EEEEEE;
+	 }
+	 .bar .searchbar{
+	 	background: #fff;
 	 }
 	  
 </style>

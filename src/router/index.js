@@ -15,6 +15,8 @@ export default new Router({
       beforeEnter: (to, from, next) => {
         document.getElementsByTagName("html")[0].style.fontSize = '100px'
         next();
+        document.getElementsByTagName("body")[0].style.background = "white"
+        next();
         
       }
     },

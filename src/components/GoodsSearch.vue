@@ -29,7 +29,7 @@ body{
 		flex:1;
 	}
 	 .bar-header-secondary {
-	 	top: 1rem;
+	 	top: .5rem;
 	 	display: flex;
 	 	justify-content:center ;
 	 	background: #fff;
@@ -45,5 +45,9 @@ body{
 	 	background: #F2F2F2;	
 	 }
 	 #txt{margin-top:.7rem; font-size: .7rem;color: #FF5B7C;}
+	 .searchbar{
+	 	height: 1.9rem;
+	 }
+	 
 	  
 </style>

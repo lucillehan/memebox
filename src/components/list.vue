@@ -20,8 +20,6 @@ import Search from './Search.vue'
 </script>
 
 <style scoped> 
-body{
-	font-size: 20px!important;
-}
+ 
  
 </style>
