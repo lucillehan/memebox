@@ -6,140 +6,68 @@
 		    <a href="#tab3" class="tab-link button">价格</a>
 		     <a href="#tab4" class="tab-link button">筛选</a>
 		  </div>
-		  <div class="content-block">
-		    
-			
-		      <div id="tab1" class="tab active">
-		        <div class="content-block">
-		          	<ul>
-					<li class="Box" v-for="item in arr1"> 
-					<div class=" Img_R">
-						<img :src="item.imgUrl ">
-					</div>
-							
-						<div class="price">
-							<p>{{item.name}} </p>
-							 <div class="P_Man">
-							 	<span>{{item.price}}</span><em>{{item.originPrice}}</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					 </li>
-				</ul>
-		        </div>
-		      </div>
-
-		      <div id="tab2" class="tab active">
-		        <div class="content-block">
-		          	<ul>
-					<li class="Box" v-for="item in arr2"> 
-						<div class="Img_R">
-							<img :src="item.imgUrl" >	
-						</div>
-					</li>
-				</ul>
-
-		        </div>
-		        </div>
-		      </div>
-		      <div id="tab3" class="tab active">
-		        <div class="content-block">
-		          <div class="content-block">
-		           
-		          	<ul>
-					<li><div class="Box ">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-
-					<li><div class="Box ">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-
-							 </div>
-						</div>
-					</div></li>
-				</ul>
-
-		        </div>
-		        </div>
-		      </div>
-		       <div id="tab4" class="tab">
-		        <div class="content-block">
-		          <p></p>
-		        </div>
-		      </div>
+			<div class="content-block">
+			    <div class="tabs">
+			      <div id="tab1" class="tab active">
+			        <div class="content-block">
+			         <ul>
+						<li class="Box"	 v-for="item in arr1"> 
+							<div class=" Img_R">
+								<img :src="item.imgUrl ">
+							</div>
+								
+							<div class="price">
+								<p>{{item.name}} </p>
+								 <div class="P_Man">
+								 	<span>{{item.price}}</span><em>{{item.originPrice}}</em>
+								 	<i><span class="icon icon-cart"></span></i>
+								 </div>
+							</div>
+							</li>
+						</ul>
+			        </div>
+			      </div>
+			      <div id="tab2" class="tab">
+			        <div class="content-block">
+			         <ul>
+						<li class="Box"	 v-for="item in arr2"> 
+							<div class=" Img_R">
+								<img :src="item.imgUrl ">
+							</div>
+								
+							<div class="price">
+								<p>{{item.name}} </p>
+								 <div class="P_Man">
+								 	<span>{{item.price}}</span><em>{{item.originPrice}}</em>
+								 	<i><span class="icon icon-cart"></span></i>
+								 </div>
+							</div>
+							</li>
+						</ul>
+			        </div>
+			      </div>
+			      <div id="tab3" class="tab">
+			        <div class="content-block">
+			          <ul>
+						<li class="Box"	 v-for="item in arr3"> 
+							<div class=" Img_R">
+								<img :src="item.imgUrl ">
+							</div>
+								
+							<div class="price">
+								<p>{{item.name}} </p>
+								 <div class="P_Man">
+								 	<span>{{item.price}}</span><em>{{item.originPrice}}</em>
+								 	<i><span class="icon icon-cart"></span></i>
+								 </div>
+							</div>
+							</li>
+						</ul>
+			        </div>
+			    </div>
 		    </div>
-		  </div>
 		</div>
+	</div>
 </template>
 
 <script>
@@ -148,7 +76,9 @@ import Vue from 'vue'
 	name:'GoodsTab',
 	data(){
 		return{
-			arr1:""
+			arr1:"",
+			arr2:"",
+			arr3:""
 		}
 	},
 	created(){
@@ -160,6 +90,8 @@ import Vue from 'vue'
 				 
 				this.arr1 =data.groupList[0].duration[0].productList;
 				this.arr2 =data.groupList[1].duration[1].productList;
+				this.arr3 =data.groupList[1].duration[2].productList;
+
 			})
 		}
 
@@ -172,7 +104,7 @@ import Vue from 'vue'
 	p{
 		margin: 0;
 		padding: 0;
-	}ㅇ
+	}
 	em{
 		font-style: normal;
 		text-decoration:line-through;
