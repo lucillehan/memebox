@@ -8,12 +8,10 @@
     </div>
 </template>
 
-
 <script>
 
    
 </script>
-
 
 <style>
  
@@ -43,6 +41,8 @@ html,body{
   height: 100%;
   display: flex;
   flex-flow: column wrap;
+  background: #fff;
+  overflow-y: scroll;
 }
 
 </style>

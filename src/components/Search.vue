@@ -1,14 +1,18 @@
 <template>
-<div class="ListBox">
+ 
 <div class="bar bar-header-secondary">
+
 		  <div class="searchbar">
+  
 		    <a class="searchbar-cancel">取消</a>
+ 
 		    <div class="search-input">
+
 		      <label class="icon icon-search" for="search"></label>
 		      <input type="search" id='search' v-model="val" @keyup.enter="send"  placeholder='输入关键字...'/>
 		    </div>
 		  </div>
-		</div>	
+		 
 
 </div>
  	
@@ -50,7 +54,13 @@ import Vue from 'vue'
 		flex:1;
 	}
 	 .bar-header-secondary {
-	 	top: 1rem;
+	 	top: .5rem;
+	 }
+	 .bar .searchbar .search-input input{
+	 	background: #EEEEEE;
+	 }
+	 .bar .searchbar{
+	 	background: #fff;
 	 }
 	  
 </style>
