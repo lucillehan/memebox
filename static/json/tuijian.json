@@ -1,0 +1,134 @@
+{
+    "code": "1",
+    "msg": "获取成功",
+    "data": {
+        "hasNext": 1,
+        "items": [
+            {
+                "productId": "18303",
+                "brandName": "ON THE BODY",
+                "name": "香水沐浴露 浪漫粉色",
+                "sku": "C010008",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_130_1.jpg",
+                "originPrice": "79.00",
+                "price": "45.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "13687",
+                "brandName": "It’s skin 伊思",
+                "name": "清凉解压足贴",
+                "sku": "52003428",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/5/2/52003428_1.jpg",
+                "originPrice": "30.00",
+                "price": "19.00",
+                "warehouse": 8,
+                "productLabels": []
+            },
+            {
+                "productId": "8808",
+                "brandName": "TOO COOL FOR SCHOOL",
+                "name": "美术课修妆笔",
+                "sku": "52000410",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/5/2/52000410.jpg",
+                "originPrice": "80.00",
+                "price": "71.00",
+                "warehouse": 8,
+                "productLabels": []
+            },
+            {
+                "productId": "18271",
+                "brandName": "ON:THE BODY",
+                "name": "香水身体乳 粉色玫瑰",
+                "sku": "C010014",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/2/2/22._-_.jpg",
+                "originPrice": "79.00",
+                "price": "58.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "15233",
+                "brandName": "innisfree 悦诗风吟",
+                "name": "济州寒兰花眼霜",
+                "sku": "52002157",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/5/2/52002157_1.jpg",
+                "originPrice": "200.00",
+                "price": "183.00",
+                "warehouse": 8,
+                "productLabels": []
+            },
+            {
+                "productId": "17118",
+                "brandName": "SKINFOOD 思亲肤",
+                "name": "谷米精华面膜（洗净式）100g",
+                "sku": "C120097",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/s/k/skinfood_100g_1_2.jpg",
+                "originPrice": "70.00",
+                "price": "55.00",
+                "warehouse": 2,
+                "productLabels": []
+            },
+            {
+                "productId": "8305",
+                "brandName": "ETUDE HOUSE 伊蒂之屋",
+                "name": "清纯自然眉毛膏",
+                "sku": "DS51",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/d/s/ds51_1.jpg",
+                "originPrice": "78.00",
+                "price": "29.00",
+                "warehouse": 8,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "7837",
+                "brandName": "GARGLIN",
+                "name": "强效清凉漱口水",
+                "sku": "52000167",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/5/2/52000167.jpg",
+                "originPrice": "56.00",
+                "price": "51.00",
+                "warehouse": 8,
+                "productLabels": []
+            },
+            {
+                "productId": "15588",
+                "brandName": "NATURE REPUBLIC 自然共和国",
+                "name": "自然橄榄清凉头皮发膜",
+                "sku": "52004678",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/5/2/52004678.jpg",
+                "originPrice": "79.00",
+                "price": "75.00",
+                "warehouse": 8,
+                "productLabels": []
+            },
+            {
+                "productId": "7874",
+                "brandName": "THE SAEM 得鲜",
+                "name": "巧克力派护手霜",
+                "sku": "51003879",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/5/1/51003879.jpg",
+                "originPrice": "73.00",
+                "price": "69.00",
+                "warehouse": 8,
+                "productLabels": []
+            }
+        ]
+    }
+}

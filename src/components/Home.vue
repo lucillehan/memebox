@@ -3,19 +3,19 @@
 		<Homeheader></Homeheader>
 		<section>
 			<mt-swipe :auto="4000">
-				<mt-swipe-item v-for="item in this.ban"><img :src="item.banner_img"/></mt-swipe-item>
+				<mt-swipe-item v-for="item in  ban"><img :src="item.banner_img"/></mt-swipe-item>
 			</mt-swipe>
 		
 		
 
 		<ul class="menu">
-			<li v-for="item in this.menu[2].items">
+			<li v-if="menu[2]!=null"  v-for="item in  menu[2].items">
 				<router-link to="">
 					<img :src="item.icon_img" alt="">
 					<p>{{ item.icon_title }}</p>
 				</router-link>
 			</li>
-			<li v-for="item in this.menu[3].items">
+			<li v-if="menu[3]!=null" v-for="item in  menu[3].items">
 				<router-link to="">
 					<img :src="item.icon_img" alt="">
 					<p>{{ item.icon_title }}</p>
@@ -27,16 +27,16 @@
 		<div class="space"></div>
 
 		<div class="tuijian">
-			<div class="lt">
-				<img :src="this.menu[7].items[0].special_img" />
+			<div  class="lt">
+				<img v-if="menu[7]!=null" :src=" menu[7].items[0].special_img" />
 			</div>
 			<div class="rt">
 				<div class="rt-1">
-					<img :src="this.menu[7].items[1].special_img">
+					<img  v-if="menu[7]!=null" :src=" menu[7].items[1].special_img">
 				</div>
 				<div class="rt-2">
-					<div class="rq"><img :src="this.menu[7].items[2].special_img"  alt=""></div>
-					<div class="zx"><img :src="this.menu[7].items[3].special_img" alt=""></div>
+					<div v-if="menu[7]!=null" class="rq"><img :src=" menu[7].items[2].special_img"  alt=""></div>
+					<div class="zx"><img v-if="menu[7]!=null" :src=" menu[7].items[3].special_img" alt=""></div>
 				</div>
 			</div>
 		</div>
@@ -57,7 +57,7 @@
 			</div>
 			<div class="listInfo">
 				<ul class="scroll1">
-					<li v-for="item in this.miao">
+					<li v-for="item in  miao">
 						<router-link to="">
 							<div class="lt-img">
 								<img :src="item.imgUrl">
@@ -90,72 +90,28 @@
 			</div>
 			<div class="listInfo-tj">
 				<ul class="scroll2">
-					<li>
+					<li v-for="item in tejia">
 						<router-link to="">
 							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
+								<img :src="item.imgUrl">
 							</div>
 							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
+								<div class="name">{{ item.name }}</div>
 								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
+									￥<span class="rate">{{ item.price }}</span>
+									<!-- <del>￥{{ item.originPrice }}</del> -->
 								</div>
-								<span class="rob">直降69</span>
+								<span v-if="item.productLabels[0]" class="rob">{{ item.productLabels[0].text }}</span>
 							</div>
 						</router-link>
 					</li>
-
-					<li>
-						<router-link to="">
-							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
-							</div>
-							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
-								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
-								</div>
-								<span class="rob">直降69</span>
-							</div>
-						</router-link>
-					</li>
-
-					<li>
-						<router-link to="">
-							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
-							</div>
-							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
-								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
-								</div>
-								<span class="rob">直降69</span>
-							</div>
-						</router-link>
-					</li>
-
-					<li>
-						<router-link to="">
-							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
-							</div>
-							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
-								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
-								</div>
-								<span class="rob">直降69</span>
-							</div>
-						</router-link>
-					</li>
-					
 				</ul>
 			</div>
 		</div>
 		
 
 		<div class="space"></div>
+		
 
 		<!-- 好货一起拼 -->
 		<div class="today">
@@ -169,66 +125,20 @@
 			</div>
 			<div class="listInfo-tj">
 				<ul class="scroll2">
-					<li v-for="item in this.miao">
+					<li v-for="item in haohuo">
 						<router-link to="">
 							<div class="lt-img">
-								<img src="">
+								<img :src="item.imgUrl">
 							</div>
 							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
+								<div class="name">{{ item.name }}</div>
 								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
+									￥<span class="rate">{{ item.price }}</span><del v-if="item.originprice">￥{{ item.originprice }}</del>
 								</div>
-								<span class="rob">直降69</span>
+								<span v-if="item.productLabels[0]" class="rob">{{ item.productLabels[0].text }}</span>
 							</div>
 						</router-link>
 					</li>
-
-					<li>
-						<router-link to="">
-							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
-							</div>
-							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
-								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
-								</div>
-								<span class="rob">直降69</span>
-							</div>
-						</router-link>
-					</li>
-
-					<li>
-						<router-link to="">
-							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
-							</div>
-							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
-								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
-								</div>
-								<span class="rob">直降69</span>
-							</div>
-						</router-link>
-					</li>
-
-					<li>
-						<router-link to="">
-							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
-							</div>
-							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
-								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
-								</div>
-								<span class="rob">直降69</span>
-							</div>
-						</router-link>
-					</li>
-					
 				</ul>
 			</div>
 		</div>
@@ -236,67 +146,22 @@
 	
 		<div class="space"></div>
 	
-		<!-- 第一层肌底精华露 -->
+		<!-- 调情配方，好货再入库 -->
 		<div class="zhiyou1">
-			<div class="zy-img"><img src="http://img001.cn.memebox.com/img/activity/2017/6/9/8/20176985558%E5%9B%BA%E5%AE%9Abanner.jpg" alt=""></div>
+			<div class="zy-img"><img src="http://img001.cn.memebox.com/img/activity/2017/6/14/13/2017614135614CN_06.14_3ce_fix-banner_app_750-424.jpg" alt=""></div>
 			<div class="listInfo-tj">
 				<ul class="scroll2">
-					<li class="plr-10">
+					<li class="plr-10"  v-for="item in haohuo">
 						<router-link to="">
 							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
+								<img :src="item.imgUrl">
 							</div>
 							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
+								<div class="name">{{ item.name }}</div>
 								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
+									￥<span class="rate">{{ item.price }}</span><del  v-if="item.originprice">￥{{ item.originprice }}</del>
 								</div>
-								<span class="rob">直降69</span>
-							</div>
-						</router-link>
-					</li>
-
-					<li class="plr-10">
-						<router-link to="">
-							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
-							</div>
-							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
-								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
-								</div>
-								<span class="rob">直降69</span>
-							</div>
-						</router-link>
-					</li>
-
-					<li class="plr-10">
-						<router-link to="">
-							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
-							</div>
-							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
-								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
-								</div>
-								<span class="rob">直降69</span>
-							</div>
-						</router-link>
-					</li>
-
-					<li class="plr-10">
-						<router-link to="">
-							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
-							</div>
-							<div class="rt-info">
-								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
-								<div class="price">
-									￥<span class="rate">85.00</span><del>￥158</del>
-								</div>
-								<span class="rob">直降69</span>
+								<span v-if="item.productLabels[0]!=null"  class="rob">{{ item.productLabels[0].text }}</span>
 							</div>
 						</router-link>
 					</li>
@@ -314,7 +179,7 @@
 					<li class="plr-10">
 						<router-link to="">
 							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
+								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/o/pony_effect__7.jpg">
 							</div>
 							<div class="rt-info">
 								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
@@ -344,7 +209,7 @@
 					<li class="plr-10">
 						<router-link to="">
 							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
+								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/o/pony_effect__4.jpg">
 							</div>
 							<div class="rt-info">
 								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
@@ -359,7 +224,22 @@
 					<li class="plr-10">
 						<router-link to="">
 							<div class="lt-img">
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_18.jpg">
+								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/d/pdvn310.jpg">
+							</div>
+							<div class="rt-info">
+								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
+								<div class="price">
+									￥<span class="rate">85.00</span><del>￥158</del>
+								</div>
+								<span class="rob">直降69</span>
+							</div>
+						</router-link>
+					</li>
+
+					<li class="plr-10">
+						<router-link to="">
+							<div class="lt-img">
+								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/d/pdvn306_1.jpg">
 							</div>
 							<div class="rt-info">
 								<div class="name">ABOUT ME柠檬排毒美白按摩膏</div>
@@ -382,60 +262,17 @@
 			<h3><img src="http://m.cn.memebox.com/images/app/tuijian_icon.png" alt=""></h3>
 			<div class="favor-list">
 				<ul>
-					<li>
+					<li v-for="items in  tuijian">
 						<router-link to="">
 							<div class="tj-info">
 								<i></i>
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/d/s/ds732.jpg" alt="">
+								<img :src="items.imgUrl" alt="">
 							</div>
-							<p class="tj-name">WAKEMAKE色彩啫喱凝胶眼线笔</p>
-							<div class="tj-limit-q"><span>限时抢</span></div>
+							<p class="tj-name">{{ items.name }}</p>
+							<div class="tj-limit-q" v-if="items.productLabels[0]"><span>{{ items.productLabels[0].text}}</span></div>
 							<div class="price-box">
-								<span>￥95.00</span>
-								<del>￥98.00</del>
-							</div>
-						</router-link>	
-					</li>
-					
-					<li>
-						<router-link to="">
-							<div class="tj-info">
-								<i></i>
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/d/s/ds732.jpg" alt="">
-							</div>
-							<p class="tj-name">WAKEMAKE色彩啫喱凝胶眼线笔</p>
-							<div class="tj-limit-q"><span>限时抢</span></div>
-							<div class="price-box">
-								<span>￥95.00</span>
-								<del>￥98.00</del>
-							</div>
-						</router-link>	
-					</li>
-					<li>
-						<router-link to="">
-							<div class="tj-info">
-								<i></i>
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/d/s/ds732.jpg" alt="">
-							</div>
-							<p class="tj-name">WAKEMAKE色彩啫喱凝胶眼线笔</p>
-							<div class="tj-limit-q"><span>限时抢</span></div>
-							<div class="price-box">
-								<span>￥95.00</span>
-								<del>￥98.00</del>
-							</div>
-						</router-link>	
-					</li>
-					<li>
-						<router-link to="">
-							<div class="tj-info">
-								<i></i>
-								<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/d/s/ds732.jpg" alt="">
-							</div>
-							<p class="tj-name">WAKEMAKE色彩啫喱凝胶眼线笔</p>
-							<div class="tj-limit-q"><span>限时抢</span></div>
-							<div class="price-box">
-								<span>￥95.00</span>
-								<del>￥98.00</del>
+								<span>￥{{ items.price }}</span>
+								<del>￥{{ items.originPrice }}</del>
 							</div>
 						</router-link>	
 					</li>
@@ -464,7 +301,10 @@ import Vue from "vue"
 			return {
 				ban:'',
 				menu:'',
-				miao:''
+				tejia:'',
+				miao:'',
+				tuijian:'',
+				haohuo:''
 			}
 		},
 		created(){
@@ -477,26 +317,64 @@ import Vue from "vue"
 			// })
 
 			//轮播和菜单数据
-			var url = "../../static/json/home.json"
-			Vue.axios.get(url).then(function(res){
+			let url1 = "../../static/json/home.json"
+			Vue.axios.get(url1).then(function(res){
 				// console.log(res.data.data.components)
 				return res.data.data.components
 			}).then((data)=>{
-				// console.log(data)
+				console.log(data)
 				this.ban = data[0].items;
 				this.menu = data;
+				// this.tiaoqing = data;
+				// this.nvshen = data;
 				
 			})
 
 
 			//超秒专区
-			var url = "../../static/json/chaomiaozq.json"
-			Vue.axios.get(url).then(function(res){
+			let url2 = "../../static/json/chaomiaozq.json"
+			Vue.axios.get(url2).then(function(res){
 				// console.log(res)
 				return res.data.data.productList
 			}).then((data)=>{
-				console.log(data)
+				// console.log(data)
 				this.miao = data
+			})
+
+
+			//今日特价
+			let url5 = "../../static/json/tejia.json"
+			Vue.axios.get(url5).then(function(res){
+				// console.log(res)
+				return res.data.data.items
+			}).then((data)=>{
+				console.log(data)
+				this.tejia = data
+			})
+
+
+
+
+			//为你推荐
+			// let url3 = "https://app.cn.memebox.com/mobilev44/recommend/index?page=1&pageSize=10&pageType=3&userId=";
+			let url3 = "../../static/json/tuijian.json"
+			Vue.axios.get(url3).then(function(res){
+				// console.log(res)
+				return res.data.data.items
+			}).then((data)=>{
+				// console.log(data)
+				this.tuijian = data
+			})
+
+
+			//好货一起拼
+			let url4 = "../../static/json/tuijian.json"
+			Vue.axios.get(url4).then(function(res){
+				// console.log(res)
+				return res.data.data.items
+			}).then((data)=>{
+				// console.log(data)
+				this.haohuo = data
 			})
 
 		}
@@ -648,7 +526,7 @@ import Vue from "vue"
 	}
 	.scroll1 li a .rt-info{
 		display: inline-block;
-		width: 1.23rem;
+		width: 1.5rem;
 		padding: .14rem .15rem 0 0;
 		color: #333;
 	    font-size: .12rem;
@@ -658,7 +536,7 @@ import Vue from "vue"
 	}
 	.price{
 		width: .44rem;
-		font-size: .16rem;
+		font-size: .14rem;
 		color: #ff5073;
 		font-weight: bold;
 		margin-bottom: .1rem;
@@ -674,7 +552,7 @@ import Vue from "vue"
 	}
 	.price del{
 		color: #bbb;
-		font-size: .14rem;
+		font-size: .12rem;
 		margin-bottom: .1rem;
 		height: .15rem;
 		line-height: .15rem;
@@ -718,7 +596,7 @@ import Vue from "vue"
 	}
 	.listInfo-tj .scroll2{
 		/*width: 3.6rem;*/
-		width: 1000px;
+		width: 500px;
 		height: 1.96rem;
 		display: flex;
 	}

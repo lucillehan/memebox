@@ -4,6 +4,9 @@ import List from '@/components/list'
 import Goods from '@/components/Goods'
 import Search from '@/components/Search'
 import Home from '@/components/Home'
+import HomeSearch from '@/components/HomeSearch.vue'
+import Cart from '@/components/Cart'
+
 Vue.use(Router)
 
 export default new Router({
@@ -40,6 +43,28 @@ export default new Router({
         next();
         
       }
-    } 
+    },
+     {
+      path:'/HomeSearch',
+      name:'HomeSearch',
+      component:HomeSearch,
+      beforeEnter: (to, from, next) => {
+
+        document.getElementsByTagName("html")[0].style.fontSize = '20px'
+        next();
+        
+      }
+    },
+     {
+      path:'/Cart',
+      name:'Cart',
+      component:Cart,
+      beforeEnter: (to, from, next) => {
+
+        document.getElementsByTagName("html")[0].style.fontSize = '100px'
+        next();
+        
+      }
+    }   
   ]
 })

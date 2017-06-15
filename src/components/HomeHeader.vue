@@ -2,7 +2,10 @@
 	<div class="homeheader">
 		<div class="header">
 			<div class="logo"><img src="../assets/logo.jpg" alt=""></div>
-			<div class="center"><i class="iconfont icon-sou"></i><input type="text"></div>
+			<div class="center">
+				<i class="iconfont icon-sousuo_sousuo"></i>
+				<router-link to="/HomeSearch"><input type="text"></router-link>
+			</div>
 			<div class="right"><i class="iconfont icon-iconfont"></i></div>
 		</div>
 	</div>
@@ -86,6 +89,7 @@
 		border: none;
 		border: 0;
 		font-size: .12rem;
+		color: gray;
 	}
 	.right{
 		/*width: .2rem;*/

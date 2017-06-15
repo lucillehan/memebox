@@ -1,0 +1,154 @@
+{
+    "code": "1",
+    "msg": "获取成功",
+    "data": {
+        "hasNext": 1,
+        "items": [
+            {
+                "productId": "11440",
+                "brandName": "LANEIGE 兰芝",
+                "name": "水润淡彩护唇膏",
+                "sku": "DS371",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-1_-__5.jpg",
+                "originPrice": "176.00",
+                "price": "159.00",
+                "warehouse": 8,
+                "productLabels": []
+            },
+            {
+                "productId": "22440",
+                "brandName": "innisfree 悦诗风吟",
+                "name": "火山岩泥毛孔清洁多效面膜",
+                "sku": "C120205",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/i/n/innisfree-_-_-100ml.jpg",
+                "originPrice": "109.00",
+                "price": "99.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "17874",
+                "brandName": "THE SAEM 得鲜",
+                "name": "微笑娃娃胭脂腮红",
+                "sku": "CO18",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_92.jpg",
+                "originPrice": "56.00",
+                "price": "45.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "20591",
+                "brandName": "BBIA",
+                "name": "丝滑控油EGLIPS 马卡龙定妆粉饼",
+                "sku": "CO97",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/b/b/bbia__1.jpg",
+                "originPrice": "89.00",
+                "price": "65.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "17532",
+                "brandName": "innisfree 悦诗风吟",
+                "name": "济州岛火山岩泥毛孔清洁紧实面膜",
+                "sku": "C120108",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-100ml.jpg",
+                "originPrice": "118.00",
+                "price": "99.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "5822",
+                "brandName": "SKINFOOD 思亲肤",
+                "name": "巧克力眉粉",
+                "sku": "CO129",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/s/1/s1817-1.jpg",
+                "originPrice": "40.00",
+                "price": "25.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "19973",
+                "brandName": "Reveur",
+                "name": "无硅油护发素500ML 粉色",
+                "sku": "C030020",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_164_9.jpg",
+                "originPrice": "89.00",
+                "price": "59.00",
+                "warehouse": 2,
+                "productLabels": []
+            },
+            {
+                "productId": "17123",
+                "brandName": "innisfree 悦诗风吟",
+                "name": "绿茶爽肤水（平衡型）200ml",
+                "sku": "C090026",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/2/3/23._200ml.jpg",
+                "originPrice": "115.00",
+                "price": "109.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "13176",
+                "brandName": "REARAR DIAFORCE 瑞拉迪雅芙丝",
+                "name": "贵妇眼膜 #黄金钻石",
+                "sku": "C120005",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_201_4.jpg",
+                "originPrice": "139.00",
+                "price": "89.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "7838",
+                "brandName": "GARGLIN",
+                "name": "儿童专用漱口水（草莓味）",
+                "sku": "52000173",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/5/2/52000173_2.jpg",
+                "originPrice": "41.00",
+                "price": "37.00",
+                "warehouse": 8,
+                "productLabels": []
+            }
+        ]
+    }
+}

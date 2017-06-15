@@ -4,7 +4,7 @@
 			<!-- <router-link to="/"> -->
 			  <mt-tab-item id="home">
 			  	
-				  <i class="iconfont icon-shouye"></i>
+				  <i class="iconfont icon-shouyeshouye"></i>
 				    首页
 				
 			  </mt-tab-item>
@@ -19,11 +19,11 @@
 		  
 
 		  <mt-tab-item id="find">
-		    <i class="iconfont icon-faxian"></i>
+		    <i class="iconfont icon-fun"></i>
 		    发现
 		  </mt-tab-item>
 		  <mt-tab-item id="cart">
-		    <i class="iconfont icon-gouwuche"></i>
+		    <i class="iconfont icon-gouwuche01"></i>
 		    购物车
 		  </mt-tab-item>
 		  <mt-tab-item id="mine">
