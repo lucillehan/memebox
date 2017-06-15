@@ -211,15 +211,41 @@
 				      </div>
 				    </div>
 				  </div>
+
+				
+
+
 				</div>
  
 </template>
 
 <script>
-
+import Vue from 'vue'
 	export default{
 		name:'Tab',
-		 
+		data(){
+			return {
+				arr:""
+			}
+		},
+		 created(){
+			// jsonp的方式
+			// var url = "https://api.douban.com/v2/book/1220562"
+			// jsonp(url,null,function (err,data) {
+			// 	if(err){
+			// 		console.log('数据无法获取')
+			// 	}else {
+					 
+			// 		console.log(data.tags)
+			// 		// console.log(data.tags.name)//返回的是空；
+			// 	}
+			// })
+			Vue.axios.get("../static/json/video.json").then( (res) =>{
+				// body... 
+				this.arr = res
+				console.log(this.arr );
+			})
+		}
 	}
 </script>
 
@@ -277,6 +303,7 @@
 		width: 100vw;
 		z-index: 20;
 	} 	
+	.price p{}
 
 
 </style>

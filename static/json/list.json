@@ -1,0 +1,2406 @@
+{
+    "code": "1",
+    "data": {
+        "groupList": [
+            {
+                "group_id": "42",
+                "date": "2017-06-15",
+                "duration": [
+                    {
+                        "is_active": 3,
+                        "duration_id": "157",
+                        "secKillStartTime": 1497492000000,
+                        "secKillEndTime": 1497509999000,
+                        "productList": [
+                            {
+                                "groupId": "42",
+                                "durationId": "157",
+                                "productId": "24472",
+                                "name": "Q10牛奶沐浴露 450ml",
+                                "brandName": "Beauty Buffet",
+                                "price": "65.00",
+                                "originPrice": "115.00",
+                                "secKillPrice": "59.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_208_2.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 0
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "157",
+                                "productId": "17227",
+                                "name": "魅力摇滚眉粉",
+                                "brandName": "TOO COOL FOR SCHOOL",
+                                "price": "115.00",
+                                "originPrice": "145.00",
+                                "secKillPrice": "99.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/t/o/too-cool-for-school-__3.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "157",
+                                "productId": "23045",
+                                "name": "春雨 蜂蜜洗面奶 120ml",
+                                "brandName": "PAPA RECIPE",
+                                "price": "69.00",
+                                "originPrice": "89.00",
+                                "secKillPrice": "59.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_210_4.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "157",
+                                "productId": "22312",
+                                "name": "双色立体眼影棒 ",
+                                "brandName": "LANEIGE 兰芝",
+                                "price": "179.00",
+                                "originPrice": "190.00",
+                                "secKillPrice": "159.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-__4_9.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3936",
+                                        "title": "1# 珊瑚色",
+                                        "sku": "C050130",
+                                        "value": "14387",
+                                        "qty": 57,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3936",
+                                        "title": "2# 玫瑰金色",
+                                        "sku": "C050138",
+                                        "value": "14385",
+                                        "qty": 62,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3936",
+                                        "title": "3# 浪漫橙色",
+                                        "sku": "C050139",
+                                        "value": "14386",
+                                        "qty": 90,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "157",
+                                "productId": "17878",
+                                "name": "隔离霜",
+                                "brandName": "THE SAEM 得鲜",
+                                "price": "39.00",
+                                "originPrice": "49.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-1_11_16.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3526",
+                                        "title": "1# 绿色",
+                                        "sku": "C080069",
+                                        "value": "12863",
+                                        "qty": 167,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3526",
+                                        "title": "2# 粉色",
+                                        "sku": "C080070",
+                                        "value": "12864",
+                                        "qty": 158,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3526",
+                                        "title": "3# 黄色",
+                                        "sku": "C080071",
+                                        "value": "12865",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    }
+                                ],
+                                "seckillStock": 0
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "158",
+                        "secKillStartTime": 1497510000000,
+                        "secKillEndTime": 1497527999000,
+                        "productList": [
+                            {
+                                "groupId": "42",
+                                "durationId": "158",
+                                "productId": "24539",
+                                "name": "宝宝水嫩防晒乳SPF30+ 148ml",
+                                "brandName": "Blue Lizard 蓝蜥蜴",
+                                "price": "85.00",
+                                "originPrice": "128.00",
+                                "secKillPrice": "79.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_209_2.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "158",
+                                "productId": "869",
+                                "name": "卸妆膏/霜180ml温和卸妆深层清洁限量版",
+                                "brandName": "Banila CO 芭妮兰",
+                                "price": "179.00",
+                                "originPrice": "260.00",
+                                "secKillPrice": "155.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_200_3.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "158",
+                                "productId": "22481",
+                                "name": "N.M.F经典针剂水库保湿面膜 10片",
+                                "brandName": "MEDIHEAL 美迪惠尔",
+                                "price": "85.00",
+                                "originPrice": "129.00",
+                                "secKillPrice": "69.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/m/e/mediheal-_-n.m.f-_-10_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "158",
+                                "productId": "23402",
+                                "name": "丝绒雾感气垫唇釉笔",
+                                "brandName": "COLOR DEEP 咖乐迪",
+                                "price": "69.00",
+                                "originPrice": "79.00",
+                                "secKillPrice": "55.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_201_1_1_1_1_2.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#1珊瑚橙粉",
+                                        "sku": "C060143",
+                                        "value": "14561",
+                                        "qty": 36,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#2蔷薇紫红",
+                                        "sku": "C060144",
+                                        "value": "14560",
+                                        "qty": 139,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#3清新正红",
+                                        "sku": "C060145",
+                                        "value": "14562",
+                                        "qty": 29,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#4玫瑰酒红",
+                                        "sku": "C060146",
+                                        "value": "14563",
+                                        "qty": 59,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#5糖果粉",
+                                        "sku": "C060147",
+                                        "value": "14564",
+                                        "qty": 137,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#6嫩桃色",
+                                        "sku": "C060148",
+                                        "value": "14565",
+                                        "qty": 26,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "158",
+                                "productId": "18132",
+                                "name": "炫彩缤纷眼影笔",
+                                "brandName": "ETUDE HOUSE 伊蒂之屋",
+                                "price": "35.00",
+                                "originPrice": "48.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_202.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3568",
+                                        "title": "13# 阳光散星",
+                                        "sku": "C050129",
+                                        "value": "14981",
+                                        "qty": 66,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3568",
+                                        "title": "3# 珠光粉",
+                                        "sku": "C050087",
+                                        "value": "13053",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3568",
+                                        "title": "7# 珠光橘",
+                                        "sku": "C050088",
+                                        "value": "13054",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3568",
+                                        "title": "8# 燕麦色",
+                                        "sku": "C050089",
+                                        "value": "13055",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3568",
+                                        "title": "9# 金光色",
+                                        "sku": "C050090",
+                                        "value": "13056",
+                                        "qty": 70,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3568",
+                                        "title": "10# 性感棕",
+                                        "sku": "C050091",
+                                        "value": "13057",
+                                        "qty": 36,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "159",
+                        "secKillStartTime": 1497528000000,
+                        "secKillEndTime": 1497542399000,
+                        "productList": [
+                            {
+                                "groupId": "42",
+                                "durationId": "159",
+                                "productId": "18271",
+                                "name": "香水身体乳 粉色玫瑰",
+                                "brandName": "ON:THE BODY",
+                                "price": "58.00",
+                                "originPrice": "79.00",
+                                "secKillPrice": "49.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/2/2/22._-_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "159",
+                                "productId": "22416",
+                                "name": "V7控油素颜面霜 50ml",
+                                "brandName": "Dr.Jart+ 蒂佳婷",
+                                "price": "199.00",
+                                "originPrice": "303.00",
+                                "secKillPrice": "179.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/v/7/v7_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "159",
+                                "productId": "23966",
+                                "name": "水光洗面奶（黑）150ml",
+                                "brandName": "JMsolution",
+                                "price": "75.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "59.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/1/_150ml_5.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "159",
+                                "productId": "18820",
+                                "name": "迪士尼 米奇米妮唇彩唇釉染唇液 ",
+                                "brandName": "THE FACE SHOP 菲诗小铺",
+                                "price": "39.00",
+                                "originPrice": "89.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-__7_5.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3643",
+                                        "title": "1#粉红色",
+                                        "sku": "C060110",
+                                        "value": "13334",
+                                        "qty": 2,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3643",
+                                        "title": "3#橘色",
+                                        "sku": "C060111",
+                                        "value": "13335",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3643",
+                                        "title": "4#红色",
+                                        "sku": "C060112",
+                                        "value": "13336",
+                                        "qty": 31,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "42",
+                                "durationId": "159",
+                                "productId": "3077",
+                                "name": "纹身液体眉笔 01大地棕色",
+                                "brandName": "CLIO 珂莱欧",
+                                "price": "89.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "79.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/s/6/s659.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "1586",
+                                        "title": " 01. 大地棕色 어스브라운",
+                                        "sku": "S659-1",
+                                        "value": "5188",
+                                        "qty": 149,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "group_id": "43",
+                "date": "2017-06-16",
+                "duration": [
+                    {
+                        "is_active": 2,
+                        "duration_id": "160",
+                        "secKillStartTime": 1497578400000,
+                        "secKillEndTime": 1497596399000,
+                        "productList": [
+                            {
+                                "groupId": "43",
+                                "durationId": "160",
+                                "productId": "1031",
+                                "name": "均衡美云朵面霜 60ml",
+                                "brandName": "MAEUX 济州马油",
+                                "price": "89.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-__6_27.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "160",
+                                "productId": "11839",
+                                "name": "银杏自然泡沫洗面奶",
+                                "brandName": "CHARMZONE 婵真",
+                                "price": "69.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "59.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/c/h/charmzone-_-_-200g.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "160",
+                                "productId": "16657",
+                                "name": "熊猫美白动物面膜 10片",
+                                "brandName": "SNP",
+                                "price": "89.00",
+                                "originPrice": "129.00",
+                                "secKillPrice": "65.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/s/n/snp-_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "160",
+                                "productId": "3077",
+                                "name": "纹身液体眉笔 01大地棕色",
+                                "brandName": "CLIO 珂莱欧",
+                                "price": "89.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "69.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/s/6/s659.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "1586",
+                                        "title": " 01. 大地棕色 어스브라운",
+                                        "sku": "S659-1",
+                                        "value": "5188",
+                                        "qty": 149,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "160",
+                                "productId": "3562",
+                                "name": "一按倾心按钮口红",
+                                "brandName": "THE SAEM 得鲜",
+                                "price": "49.00",
+                                "originPrice": "85.00",
+                                "secKillPrice": "39.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/s/7/s796.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "1880",
+                                        "title": "#06. 粉紫色 神曲歌姬 ",
+                                        "sku": "C060142",
+                                        "value": "6796",
+                                        "qty": 29,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "161",
+                        "secKillStartTime": 1497596400000,
+                        "secKillEndTime": 1497614399000,
+                        "productList": [
+                            {
+                                "groupId": "43",
+                                "durationId": "161",
+                                "productId": "24814",
+                                "name": "脱毛喷雾 玫瑰味 200ml",
+                                "brandName": "Dimples 杜碧丝",
+                                "price": "55.00",
+                                "originPrice": "79.00",
+                                "secKillPrice": "49.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-1_11_51.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "161",
+                                "productId": "277",
+                                "name": "奇迹马油霜 ",
+                                "brandName": "GUERISSON 格丽松",
+                                "price": "79.00",
+                                "originPrice": "127.00",
+                                "secKillPrice": "65.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_11.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "161",
+                                "productId": "15559",
+                                "name": "LINE FRIENDS 萌动指尖艺术美甲贴[布朗熊][恋朋限量版] ",
+                                "brandName": "MISSHA 谜尚",
+                                "price": "29.00",
+                                "originPrice": "49.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_165_2.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "161",
+                                "productId": "24864",
+                                "name": "花瓣雕刻5色腮红",
+                                "brandName": "CANMAKE 井田",
+                                "price": "79.00",
+                                "originPrice": "159.00",
+                                "secKillPrice": "67.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_211_17.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "4108",
+                                        "title": "01 暖杏色 哑光款",
+                                        "sku": "C040181",
+                                        "value": "15299",
+                                        "qty": 86,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4108",
+                                        "title": "02 桃粉色 哑光款",
+                                        "sku": "C040180",
+                                        "value": "15300",
+                                        "qty": 80,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4108",
+                                        "title": "03 仙女橙芙蓉 珠光款",
+                                        "sku": "C040179",
+                                        "value": "15298",
+                                        "qty": 93,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "161",
+                                "productId": "18142",
+                                "name": "玩转101多功能美妆笔",
+                                "brandName": "ETUDE HOUSE 伊蒂之屋",
+                                "price": "49.00",
+                                "originPrice": "58.00",
+                                "secKillPrice": "39.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/1/_101_1_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3571",
+                                        "title": "1# 黑色801哑光",
+                                        "sku": "C050094",
+                                        "value": "13063",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3571",
+                                        "title": "4# 裸色101珠光",
+                                        "sku": "C050095",
+                                        "value": "13064",
+                                        "qty": 71,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3571",
+                                        "title": "5# 裸色102珠光",
+                                        "sku": "C050096",
+                                        "value": "13065",
+                                        "qty": 10,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3571",
+                                        "title": "11# 奶油雾面",
+                                        "sku": "C050097",
+                                        "value": "13066",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3571",
+                                        "title": "15# 橘色204哑光",
+                                        "sku": "C050098",
+                                        "value": "13067",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3571",
+                                        "title": "27# 红色304珠光",
+                                        "sku": "C050099",
+                                        "value": "13068",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3571",
+                                        "title": "43# 棕色402珠光",
+                                        "sku": "C050100",
+                                        "value": "13069",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3571",
+                                        "title": "46# 棕色406珠光",
+                                        "sku": "C050101",
+                                        "value": "13070",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    }
+                                ],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "162",
+                        "secKillStartTime": 1497614400000,
+                        "secKillEndTime": 1497628799000,
+                        "productList": [
+                            {
+                                "groupId": "43",
+                                "durationId": "162",
+                                "productId": "14928",
+                                "name": "我爱迷你刷套装 #B014",
+                                "brandName": "IM",
+                                "price": "259.00",
+                                "originPrice": "259.00",
+                                "secKillPrice": "89.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-_b014.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "162",
+                                "productId": "500",
+                                "name": "茶树面膜贴 10片",
+                                "brandName": "MEDIHEAL 美迪惠尔",
+                                "price": "99.00",
+                                "originPrice": "129.00",
+                                "secKillPrice": "85.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-_mei_2_1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "191",
+                                        "title": "#03. 茶树",
+                                        "sku": "841-3",
+                                        "value": "618",
+                                        "qty": 382,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "162",
+                                "productId": "24799",
+                                "name": "保湿化妆水 150ml #1号清爽",
+                                "brandName": "MINON",
+                                "price": "155.00",
+                                "originPrice": "359.00",
+                                "secKillPrice": "119.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_211_11.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "162",
+                                "productId": "24878",
+                                "name": "水杨酸爽肤水珍贵水 375ml",
+                                "brandName": "Eau Precieuse",
+                                "price": "75.00",
+                                "originPrice": "139.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-375ml.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 0
+                            },
+                            {
+                                "groupId": "43",
+                                "durationId": "162",
+                                "productId": "14577",
+                                "name": "春雨 碳酸泡泡面膜贴",
+                                "brandName": "PAPA RECIPE",
+                                "price": "85.00",
+                                "originPrice": "170.00",
+                                "secKillPrice": "77.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/a/papa-recipe_-_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "group_id": "44",
+                "date": "2017-06-17",
+                "duration": [
+                    {
+                        "is_active": 2,
+                        "duration_id": "163",
+                        "secKillStartTime": 1497664800000,
+                        "secKillEndTime": 1497682799000,
+                        "productList": [
+                            {
+                                "groupId": "44",
+                                "durationId": "163",
+                                "productId": "24787",
+                                "name": "消臭止汗石 20g",
+                                "brandName": "Deonatulle",
+                                "price": "75.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "65.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_211_1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "163",
+                                "productId": "14944",
+                                "name": "唇部磨砂膏",
+                                "brandName": "ETUDE HOUSE 伊蒂之屋",
+                                "price": "29.00",
+                                "originPrice": "39.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/c/0/c060011.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "163",
+                                "productId": "21442",
+                                "name": "肌肤舒缓柚子味卸妆凝露啫喱 180ml",
+                                "brandName": "NURSERY",
+                                "price": "115.00",
+                                "originPrice": "139.00",
+                                "secKillPrice": "99.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/n/_nursery_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "163",
+                                "productId": "20525",
+                                "name": "都市魅惑眉笔",
+                                "brandName": "TOO COOL FOR SCHOOL",
+                                "price": "75.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "59.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_52_2_1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3764",
+                                        "title": "1# 灰褐色",
+                                        "sku": "C050050",
+                                        "value": "13775",
+                                        "qty": 3,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3764",
+                                        "title": "2# 深灰色",
+                                        "sku": "C050051",
+                                        "value": "13774",
+                                        "qty": 7,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "163",
+                                "productId": "20084",
+                                "name": "小布丁粉扑",
+                                "brandName": "Pony Effect",
+                                "price": "82.00",
+                                "originPrice": "88.00",
+                                "secKillPrice": "45.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/o/pony-effect-__1_8.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3697",
+                                        "title": "#1 紫丁香色 ",
+                                        "sku": "32000208",
+                                        "value": "13536",
+                                        "qty": 824,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3697",
+                                        "title": "#2 粉蓝色",
+                                        "sku": "32000209",
+                                        "value": "13537",
+                                        "qty": 4084,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "164",
+                        "secKillStartTime": 1497682800000,
+                        "secKillEndTime": 1497700799000,
+                        "productList": [
+                            {
+                                "groupId": "44",
+                                "durationId": "164",
+                                "productId": "24504",
+                                "name": "定妆喷雾",
+                                "brandName": "LUNA 露娜",
+                                "price": "108.00",
+                                "originPrice": "219.00",
+                                "secKillPrice": "89.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_207_38.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "164",
+                                "productId": "17852",
+                                "name": "济州岛99%芦荟胶",
+                                "brandName": "THE SAEM 得鲜",
+                                "price": "35.00",
+                                "originPrice": "39.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-__7_6.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "164",
+                                "productId": "24765",
+                                "name": "豆乳美肌紧致润泽眼霜",
+                                "brandName": "SANA 莎娜",
+                                "price": "95.00",
+                                "originPrice": "139.00",
+                                "secKillPrice": "85.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-__9_33.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "164",
+                                "productId": "23967",
+                                "name": "水光果冻洁面 150ml",
+                                "brandName": "JMsolution",
+                                "price": "79.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "65.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/1/_150ml_4.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "164",
+                                "productId": "24785",
+                                "name": "小苏打弹密泡沫洁面乳 100g",
+                                "brandName": "毛孔抚子",
+                                "price": "105.00",
+                                "originPrice": "175.00",
+                                "secKillPrice": "89.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-__9_39.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "165",
+                        "secKillStartTime": 1497700800000,
+                        "secKillEndTime": 1497715199000,
+                        "productList": [
+                            {
+                                "groupId": "44",
+                                "durationId": "165",
+                                "productId": "24680",
+                                "name": "睿嫣奢享焕彩洗发水礼盒 100ml*3",
+                                "brandName": "ReEn 润膏",
+                                "price": "79.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "69.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_210_18.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "165",
+                                "productId": "24213",
+                                "name": "致柔卸妆膏（紧致型）绿色",
+                                "brandName": "Banila CO 芭妮兰",
+                                "price": "139.00",
+                                "originPrice": "168.00",
+                                "secKillPrice": "105.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_--__5.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "165",
+                                "productId": "21883",
+                                "name": "透亮美肌棉花糖蜜控油蜜粉饼 10g",
+                                "brandName": "CANMAKE 井田",
+                                "price": "99.00",
+                                "originPrice": "139.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_211_21.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3912",
+                                        "title": "MB 自然色",
+                                        "sku": "C040087",
+                                        "value": "14300",
+                                        "qty": 95,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3912",
+                                        "title": "ML 瓷白色",
+                                        "sku": "C040089",
+                                        "value": "14302",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3912",
+                                        "title": "MO 明亮色",
+                                        "sku": "C040088",
+                                        "value": "14301",
+                                        "qty": 94,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 0
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "165",
+                                "productId": "24196",
+                                "name": "muse lip细管旋钮口红",
+                                "brandName": "UNNY",
+                                "price": "42.00",
+                                "originPrice": "59.00",
+                                "secKillPrice": "42.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/m/u/muse-lip_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "4063",
+                                        "title": "M01 chili色",
+                                        "sku": "C060199",
+                                        "value": "15019",
+                                        "qty": 51,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4063",
+                                        "title": "M02 西柚色",
+                                        "sku": "C060200",
+                                        "value": "15020",
+                                        "qty": 13,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4063",
+                                        "title": "M03 豆沙红",
+                                        "sku": "C060201",
+                                        "value": "15021",
+                                        "qty": 28,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4063",
+                                        "title": "M04 亮橘红",
+                                        "sku": "C060202",
+                                        "value": "15022",
+                                        "qty": 36,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4063",
+                                        "title": "M05 豆沙色",
+                                        "sku": "C060203",
+                                        "value": "15023",
+                                        "qty": 43,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4063",
+                                        "title": "G06 粉橘色",
+                                        "sku": "C060204",
+                                        "value": "15024",
+                                        "qty": 27,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4063",
+                                        "title": "M07 南瓜红",
+                                        "sku": "C060205",
+                                        "value": "15025",
+                                        "qty": 36,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4063",
+                                        "title": "M08 土橘色",
+                                        "sku": "C060251",
+                                        "value": "15382",
+                                        "qty": 100,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4063",
+                                        "title": "M09 奶茶色",
+                                        "sku": "C060252",
+                                        "value": "15383",
+                                        "qty": 99,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4063",
+                                        "title": "G01 复古红",
+                                        "sku": "C060253",
+                                        "value": "15384",
+                                        "qty": 100,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "44",
+                                "durationId": "165",
+                                "productId": "24422",
+                                "name": "笑脸薄荷散粉",
+                                "brandName": "innisfree 悦诗风吟",
+                                "price": "55.00",
+                                "originPrice": "55.00",
+                                "secKillPrice": "49.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/d/s/ds913_1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "4077",
+                                        "title": "10号",
+                                        "sku": "C040145",
+                                        "value": "15103",
+                                        "qty": 12,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4077",
+                                        "title": "11号",
+                                        "sku": "C040146",
+                                        "value": "15104",
+                                        "qty": 8,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4077",
+                                        "title": "4号",
+                                        "sku": "C040139",
+                                        "value": "15099",
+                                        "qty": 34,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4077",
+                                        "title": "6号",
+                                        "sku": "C040141",
+                                        "value": "15100",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "4077",
+                                        "title": "8号",
+                                        "sku": "C040143",
+                                        "value": "15101",
+                                        "qty": 28,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4077",
+                                        "title": "9号",
+                                        "sku": "C040144",
+                                        "value": "15102",
+                                        "qty": 16,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "group_id": "45",
+                "date": "2017-06-18",
+                "duration": [
+                    {
+                        "is_active": 2,
+                        "duration_id": "166",
+                        "secKillStartTime": 1497751200000,
+                        "secKillEndTime": 1497769199000,
+                        "productList": [
+                            {
+                                "groupId": "45",
+                                "durationId": "166",
+                                "productId": "23868",
+                                "name": "火山岩泥洁面慕斯",
+                                "brandName": "innisfree 悦诗风吟",
+                                "price": "69.00",
+                                "originPrice": "80.00",
+                                "secKillPrice": "55.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-1_11_21.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "166",
+                                "productId": "19782",
+                                "name": "去角质水凝露",
+                                "brandName": "CURE",
+                                "price": "189.00",
+                                "originPrice": "199.00",
+                                "secKillPrice": "159.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_211_9.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "166",
+                                "productId": "22450",
+                                "name": "橄榄油眼霜",
+                                "brandName": "innisfree 悦诗风吟",
+                                "price": "135.00",
+                                "originPrice": "149.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/5/4/545_2.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 0
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "166",
+                                "productId": "18501",
+                                "name": "棉花糖气垫腮红 20ml ",
+                                "brandName": "peripera 菲丽菲拉",
+                                "price": "69.00",
+                                "originPrice": "89.00",
+                                "secKillPrice": "59.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/2/-/2--_-20ml_1_1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3621",
+                                        "title": " 1#甜蜜粉色",
+                                        "sku": "C040057",
+                                        "value": "13252",
+                                        "qty": 19,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3621",
+                                        "title": "2#迷人珊瑚",
+                                        "sku": "C040058",
+                                        "value": "13253",
+                                        "qty": 80,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3621",
+                                        "title": "3#愉悦橙色",
+                                        "sku": "C040059",
+                                        "value": "13254",
+                                        "qty": 54,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3621",
+                                        "title": "4#心动桃粉",
+                                        "sku": "C040060",
+                                        "value": "13255",
+                                        "qty": 83,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3621",
+                                        "title": "5#薰衣草色",
+                                        "sku": "C040061",
+                                        "value": "13256",
+                                        "qty": 61,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "166",
+                                "productId": "3562",
+                                "name": "一按倾心按钮口红",
+                                "brandName": "THE SAEM 得鲜",
+                                "price": "49.00",
+                                "originPrice": "85.00",
+                                "secKillPrice": "39.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/s/7/s796.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "1880",
+                                        "title": "#06. 粉紫色 神曲歌姬 ",
+                                        "sku": "C060142",
+                                        "value": "6796",
+                                        "qty": 29,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "167",
+                        "secKillStartTime": 1497769200000,
+                        "secKillEndTime": 1497787199000,
+                        "productList": [
+                            {
+                                "groupId": "45",
+                                "durationId": "167",
+                                "productId": "22490",
+                                "name": "贝壳提亮液妆前乳",
+                                "brandName": "VDL",
+                                "price": "115.00",
+                                "originPrice": "168.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-1_11_10.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 0
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "167",
+                                "productId": "18816",
+                                "name": "黄糖精油修复面膜 10片",
+                                "brandName": "MIORIO",
+                                "price": "89.00",
+                                "originPrice": "139.00",
+                                "secKillPrice": "75.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/m/i/miorio-_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "167",
+                                "productId": "18820",
+                                "name": "迪士尼 米奇米妮唇彩唇釉染唇液 ",
+                                "brandName": "THE FACE SHOP 菲诗小铺",
+                                "price": "39.00",
+                                "originPrice": "89.00",
+                                "secKillPrice": "35.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-__7_5.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3643",
+                                        "title": "1#粉红色",
+                                        "sku": "C060110",
+                                        "value": "13334",
+                                        "qty": 2,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3643",
+                                        "title": "3#橘色",
+                                        "sku": "C060111",
+                                        "value": "13335",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "3643",
+                                        "title": "4#红色",
+                                        "sku": "C060112",
+                                        "value": "13336",
+                                        "qty": 31,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "167",
+                                "productId": "18894",
+                                "name": "恐龙广场多效滚球CC霜",
+                                "brandName": "TOO COOL FOR SCHOOL",
+                                "price": "149.00",
+                                "originPrice": "215.00",
+                                "secKillPrice": "129.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/t/o/too-cool-for-school_-_cc_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3650",
+                                        "title": "腮红",
+                                        "sku": "C080057",
+                                        "value": "13355",
+                                        "qty": 30,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3650",
+                                        "title": "遮瑕",
+                                        "sku": "C080056",
+                                        "value": "13354",
+                                        "qty": 22,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3650",
+                                        "title": "高光",
+                                        "sku": "C080058",
+                                        "value": "13356",
+                                        "qty": 33,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "167",
+                                "productId": "18906",
+                                "name": "纤巧密扇睫毛膏",
+                                "brandName": "innisfree 悦诗风吟",
+                                "price": "75.00",
+                                "originPrice": "80.00",
+                                "secKillPrice": "59.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_47.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3652",
+                                        "title": "1#黑色",
+                                        "sku": "C050141",
+                                        "value": "13360",
+                                        "qty": 107,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3652",
+                                        "title": "2#棕色",
+                                        "sku": "C050020",
+                                        "value": "13361",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    }
+                                ],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "168",
+                        "secKillStartTime": 1497787200000,
+                        "secKillEndTime": 1497801599000,
+                        "productList": [
+                            {
+                                "groupId": "45",
+                                "durationId": "168",
+                                "productId": "22532",
+                                "name": "南瓜面霜 70g ",
+                                "brandName": "PhytoTree 发朵",
+                                "price": "59.00",
+                                "originPrice": "79.00",
+                                "secKillPrice": "49.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/h/phytotree_70g.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "168",
+                                "productId": "19775",
+                                "name": "氨基酸洗面奶",
+                                "brandName": "FREEPLUS 芙丽芳丝",
+                                "price": "125.00",
+                                "originPrice": "150.00",
+                                "secKillPrice": "109.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_211_8.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "168",
+                                "productId": "22440",
+                                "name": "火山岩泥毛孔清洁多效面膜",
+                                "brandName": "innisfree 悦诗风吟",
+                                "price": "99.00",
+                                "originPrice": "109.00",
+                                "secKillPrice": "79.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/i/n/innisfree-_-_-100ml.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "168",
+                                "productId": "22479",
+                                "name": "IPI美白滋润精华面膜 10片",
+                                "brandName": "MEDIHEAL 美迪惠尔",
+                                "price": "95.00",
+                                "originPrice": "139.00",
+                                "secKillPrice": "79.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/m/e/mediheal-_-i.p.i_-10_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "45",
+                                "durationId": "168",
+                                "productId": "22563",
+                                "name": "101双头高光阴影修容棒",
+                                "brandName": "ETUDE HOUSE 伊蒂之屋",
+                                "price": "89.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/l/play-101_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3948",
+                                        "title": "1#白色",
+                                        "sku": "C040078",
+                                        "value": "14426",
+                                        "qty": 548,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3948",
+                                        "title": "2#藕粉色",
+                                        "sku": "C040081",
+                                        "value": "14427",
+                                        "qty": 335,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "group_id": "46",
+                "date": "2017-06-19",
+                "duration": [
+                    {
+                        "is_active": 2,
+                        "duration_id": "169",
+                        "secKillStartTime": 1497837600000,
+                        "secKillEndTime": 1497855599000,
+                        "productList": [
+                            {
+                                "groupId": "46",
+                                "durationId": "169",
+                                "productId": "23264",
+                                "name": "臻参宝焕活滋养洗发乳 200ml",
+                                "brandName": "RYO 吕",
+                                "price": "45.00",
+                                "originPrice": "59.00",
+                                "secKillPrice": "39.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/2/_200ml_3.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "169",
+                                "productId": "23413",
+                                "name": "魅力炫彩12色眼影盘",
+                                "brandName": "COLOR DEEP 咖乐迪",
+                                "price": "79.00",
+                                "originPrice": "89.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/1/_12__1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 0
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "169",
+                                "productId": "22690",
+                                "name": "15秒拉丝洁面乳",
+                                "brandName": "23years old",
+                                "price": "55.00",
+                                "originPrice": "58.00",
+                                "secKillPrice": "49.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/2/3/23-years-old-15_100g_1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "169",
+                                "productId": "22469",
+                                "name": "VITA维生素面膜",
+                                "brandName": "MEDIHEAL 美迪惠尔",
+                                "price": "99.00",
+                                "originPrice": "180.00",
+                                "secKillPrice": "79.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-_ll.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "169",
+                                "productId": "23283",
+                                "name": "红酒唇彩",
+                                "brandName": "LABIOTTE 兰欧媞",
+                                "price": "69.00",
+                                "originPrice": "89.00",
+                                "secKillPrice": "55.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_6_6.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3980",
+                                        "title": "CR01  珊瑚色  ",
+                                        "sku": "C060149",
+                                        "value": "14530",
+                                        "qty": 52,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3980",
+                                        "title": "OR01元气橘色",
+                                        "sku": "C060150",
+                                        "value": "14531",
+                                        "qty": 159,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3980",
+                                        "title": "PK01 嫩粉色",
+                                        "sku": "C060151",
+                                        "value": "14532",
+                                        "qty": 408,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3980",
+                                        "title": "RD01正红色",
+                                        "sku": "C060152",
+                                        "value": "14533",
+                                        "qty": 67,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3980",
+                                        "title": "RD02葡萄红",
+                                        "sku": "C060153",
+                                        "value": "14534",
+                                        "qty": 85,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3980",
+                                        "title": "RD03酒红色",
+                                        "sku": "C060154",
+                                        "value": "14535",
+                                        "qty": 65,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "170",
+                        "secKillStartTime": 1497855600000,
+                        "secKillEndTime": 1497873599000,
+                        "productList": [
+                            {
+                                "groupId": "46",
+                                "durationId": "170",
+                                "productId": "23945",
+                                "name": "滋养亮白霜 50ml",
+                                "brandName": "JMsolution",
+                                "price": "205.00",
+                                "originPrice": "289.00",
+                                "secKillPrice": "169.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/5/_50ml_4.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "170",
+                                "productId": "23717",
+                                "name": "三部曲炸弹补水面膜 10片",
+                                "brandName": "WONJIN EFFECT 原辰",
+                                "price": "109.00",
+                                "originPrice": "129.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_206_9_1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 0
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "170",
+                                "productId": "24630",
+                                "name": "铂金嫩白锡纸蒸汽面膜 5片",
+                                "brandName": "VIVLAS 唯兰颂",
+                                "price": "105.00",
+                                "originPrice": "140.00",
+                                "secKillPrice": "85.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/v/i/vivlas-_-_-5_-_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "170",
+                                "productId": "23402",
+                                "name": "丝绒雾感气垫唇釉笔",
+                                "brandName": "COLOR DEEP 咖乐迪",
+                                "price": "69.00",
+                                "originPrice": "79.00",
+                                "secKillPrice": "55.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_201_1_1_1_1_2.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#1珊瑚橙粉",
+                                        "sku": "C060143",
+                                        "value": "14561",
+                                        "qty": 36,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#2蔷薇紫红",
+                                        "sku": "C060144",
+                                        "value": "14560",
+                                        "qty": 139,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#3清新正红",
+                                        "sku": "C060145",
+                                        "value": "14562",
+                                        "qty": 29,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#4玫瑰酒红",
+                                        "sku": "C060146",
+                                        "value": "14563",
+                                        "qty": 59,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#5糖果粉",
+                                        "sku": "C060147",
+                                        "value": "14564",
+                                        "qty": 137,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3987",
+                                        "title": "#6嫩桃色",
+                                        "sku": "C060148",
+                                        "value": "14565",
+                                        "qty": 26,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "170",
+                                "productId": "23675",
+                                "name": "五谷母胎单色眼影",
+                                "brandName": "BBIA ",
+                                "price": "45.00",
+                                "originPrice": "89.00",
+                                "secKillPrice": "39.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/b/b/bbia-__1_1_1_1_1_1_1_1_1_1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "4017",
+                                        "title": "#01面茶",
+                                        "sku": "C050151",
+                                        "value": "14780",
+                                        "qty": 49,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4017",
+                                        "title": "#02红豆",
+                                        "sku": "C050152",
+                                        "value": "14781",
+                                        "qty": 25,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4017",
+                                        "title": "#03薏米",
+                                        "sku": "C050153",
+                                        "value": "14782",
+                                        "qty": 25,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4017",
+                                        "title": "#04桂皮",
+                                        "sku": "C050154",
+                                        "value": "14783",
+                                        "qty": 55,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4017",
+                                        "title": "#05黑米",
+                                        "sku": "C050155",
+                                        "value": "14784",
+                                        "qty": 62,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4017",
+                                        "title": "#06清纯",
+                                        "sku": "C050156",
+                                        "value": "14785",
+                                        "qty": 30,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4017",
+                                        "title": "#07魅力",
+                                        "sku": "C050157",
+                                        "value": "14786",
+                                        "qty": 39,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4017",
+                                        "title": "#08可爱",
+                                        "sku": "C050158",
+                                        "value": "14787",
+                                        "qty": 0,
+                                        "disabled": 1
+                                    },
+                                    {
+                                        "option_id": "4017",
+                                        "title": "#09气质",
+                                        "sku": "C050159",
+                                        "value": "14788",
+                                        "qty": 29,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4017",
+                                        "title": "#10深沉",
+                                        "sku": "C050160",
+                                        "value": "14789",
+                                        "qty": 25,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "171",
+                        "secKillStartTime": 1497873600000,
+                        "secKillEndTime": 1497887999000,
+                        "productList": [
+                            {
+                                "groupId": "46",
+                                "durationId": "171",
+                                "productId": "22532",
+                                "name": "南瓜面霜 70g ",
+                                "brandName": "PhytoTree 发朵",
+                                "price": "59.00",
+                                "originPrice": "79.00",
+                                "secKillPrice": "49.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/h/phytotree_70g.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "171",
+                                "productId": "19775",
+                                "name": "氨基酸洗面奶",
+                                "brandName": "FREEPLUS 芙丽芳丝",
+                                "price": "125.00",
+                                "originPrice": "150.00",
+                                "secKillPrice": "109.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_211_8.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "171",
+                                "productId": "22440",
+                                "name": "火山岩泥毛孔清洁多效面膜",
+                                "brandName": "innisfree 悦诗风吟",
+                                "price": "99.00",
+                                "originPrice": "109.00",
+                                "secKillPrice": "79.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/i/n/innisfree-_-_-100ml.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "171",
+                                "productId": "22479",
+                                "name": "IPI美白滋润精华面膜 10片",
+                                "brandName": "MEDIHEAL 美迪惠尔",
+                                "price": "95.00",
+                                "originPrice": "139.00",
+                                "secKillPrice": "79.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/m/e/mediheal-_-i.p.i_-10_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "46",
+                                "durationId": "171",
+                                "productId": "22563",
+                                "name": "101双头高光阴影修容棒",
+                                "brandName": "ETUDE HOUSE 伊蒂之屋",
+                                "price": "89.00",
+                                "originPrice": "99.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/l/play-101_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "3948",
+                                        "title": "1#白色",
+                                        "sku": "C040078",
+                                        "value": "14426",
+                                        "qty": 548,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "3948",
+                                        "title": "2#藕粉色",
+                                        "sku": "C040081",
+                                        "value": "14427",
+                                        "qty": 335,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "group_id": "47",
+                "date": "2017-06-20",
+                "duration": [
+                    {
+                        "is_active": 2,
+                        "duration_id": "172",
+                        "secKillStartTime": 1497924000000,
+                        "secKillEndTime": 1497941999000,
+                        "productList": [
+                            {
+                                "groupId": "47",
+                                "durationId": "172",
+                                "productId": "15566",
+                                "name": "LINE FRIENDS 优护水嫩防晒霜SPF24/PA++[恋朋限量版] ",
+                                "brandName": "MISSHA 谜尚",
+                                "price": "109.00",
+                                "originPrice": "128.00",
+                                "secKillPrice": "99.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/l/i/line_friends_spf24_pa_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "172",
+                                "productId": "11815",
+                                "name": "打底霜猪油膏 25g",
+                                "brandName": "3CEstylenanda",
+                                "price": "89.00",
+                                "originPrice": "139.00",
+                                "secKillPrice": "79.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/3/-/3-concept-eyes-_25g.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "172",
+                                "productId": "24207",
+                                "name": "第三代B5玻尿酸补水保湿精华面膜5片",
+                                "brandName": "AHC",
+                                "price": "129.00",
+                                "originPrice": "159.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/a/h/ahc_b5_5__1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 0
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "172",
+                                "productId": "203",
+                                "name": "采淡致美气垫粉底液",
+                                "brandName": "SULWHASOO 雪花秀",
+                                "price": "386.00",
+                                "originPrice": "399.00",
+                                "secKillPrice": "339.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/2/1/213.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "35",
+                                        "title": "#01. 13号 提亮色 라이트 핑크",
+                                        "sku": "C080101",
+                                        "value": "141",
+                                        "qty": 436,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "35",
+                                        "title": "#02. 21号 粉肤色 미디엄 핑크",
+                                        "sku": "C080102",
+                                        "value": "142",
+                                        "qty": 499,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "35",
+                                        "title": "#03. 23号 亮肤色 미디엄 베이지 ",
+                                        "sku": "C080103",
+                                        "value": "143",
+                                        "qty": 133,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "172",
+                                "productId": "5725",
+                                "name": "黑豆精华Q弹乳液",
+                                "brandName": "HANYUL 韩律",
+                                "price": "109.00",
+                                "originPrice": "129.00",
+                                "secKillPrice": "89.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/t/h/thumbnail-change_-_-_-_1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "173",
+                        "secKillStartTime": 1497942000000,
+                        "secKillEndTime": 1497959999000,
+                        "productList": [
+                            {
+                                "groupId": "47",
+                                "durationId": "173",
+                                "productId": "24816",
+                                "name": "保湿护肤控油粉饼/晚安粉 绿色",
+                                "brandName": "Club",
+                                "price": "139.00",
+                                "originPrice": "189.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/t/b/tb23igdoxxxxxadxxxxxxxxxxxx__11879734_3.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 0
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "173",
+                                "productId": "12754",
+                                "name": "黑色水光面膜三部曲 10片",
+                                "brandName": "JAYJUN",
+                                "price": "109.00",
+                                "originPrice": "159.00",
+                                "secKillPrice": "102.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/j/a/jayjun-_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "173",
+                                "productId": "22689",
+                                "name": "水光黄金雪花黑面膜5片",
+                                "brandName": "JAYJUN",
+                                "price": "149.00",
+                                "originPrice": "139.00",
+                                "secKillPrice": "115.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-_cccc.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "173",
+                                "productId": "24569",
+                                "name": "我爱修容粉",
+                                "brandName": "IM",
+                                "price": "179.00",
+                                "originPrice": "268.00",
+                                "secKillPrice": "99.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_207_21_1.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "173",
+                                "productId": "14253",
+                                "name": "A.P.L角质修护面膜膏 5片",
+                                "brandName": "MEDIHEAL 美迪惠尔",
+                                "price": "89.00",
+                                "originPrice": "150.00",
+                                "secKillPrice": "69.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/m/e/mediheal-_-a.p.l_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            }
+                        ]
+                    },
+                    {
+                        "is_active": 2,
+                        "duration_id": "174",
+                        "secKillStartTime": 1497960000000,
+                        "secKillEndTime": 1497974399000,
+                        "productList": [
+                            {
+                                "groupId": "47",
+                                "durationId": "174",
+                                "productId": "14580",
+                                "name": "春雨 蜂蜜面霜 50ml",
+                                "brandName": "PAPA RECIPE",
+                                "price": "99.00",
+                                "originPrice": "150.00",
+                                "secKillPrice": "89.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/p/a/papa-recipe_-_50ml.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "174",
+                                "productId": "15617",
+                                "name": "梦幻婚礼保湿亮白素颜霜 50ml",
+                                "brandName": "Banila CO 芭妮兰",
+                                "price": "159.00",
+                                "originPrice": "228.00",
+                                "secKillPrice": "135.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-_-.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "174",
+                                "productId": "16607",
+                                "name": "春雨蜂蜜深层卸妆水",
+                                "brandName": "PAPA RECIPE",
+                                "price": "89.00",
+                                "originPrice": "135.00",
+                                "secKillPrice": "79.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/t/b/tb2i9wvo.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "174",
+                                "productId": "16618",
+                                "name": "白大褂酵素水润面膜红色 10片",
+                                "brandName": "DEWYTREE自颜源露",
+                                "price": "115.00",
+                                "originPrice": "119.00",
+                                "secKillPrice": "99.00",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/4/_/4._-_.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "0",
+                                "options": [],
+                                "seckillStock": 1
+                            },
+                            {
+                                "groupId": "47",
+                                "durationId": "174",
+                                "productId": "24864",
+                                "name": "花瓣雕刻5色腮红",
+                                "brandName": "CANMAKE 井田",
+                                "price": "79.00",
+                                "originPrice": "159.00",
+                                "secKillPrice": "9.90",
+                                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_211_17.jpg",
+                                "warehouse": 2,
+                                "hasOptions": "1",
+                                "options": [
+                                    {
+                                        "option_id": "4108",
+                                        "title": "01 暖杏色 哑光款",
+                                        "sku": "C040181",
+                                        "value": "15299",
+                                        "qty": 86,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4108",
+                                        "title": "02 桃粉色 哑光款",
+                                        "sku": "C040180",
+                                        "value": "15300",
+                                        "qty": 80,
+                                        "disabled": 0
+                                    },
+                                    {
+                                        "option_id": "4108",
+                                        "title": "03 仙女橙芙蓉 珠光款",
+                                        "sku": "C040179",
+                                        "value": "15298",
+                                        "qty": 93,
+                                        "disabled": 0
+                                    }
+                                ],
+                                "seckillStock": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "msg": "获取秒杀列表成功"
+}

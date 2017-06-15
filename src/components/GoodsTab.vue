@@ -7,186 +7,42 @@
 		     <a href="#tab4" class="tab-link button">筛选</a>
 		  </div>
 		  <div class="content-block">
-		    <div class="tabs">
+		    
+			
 		      <div id="tab1" class="tab active">
 		        <div class="content-block">
-		           
 		          	<ul>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
+					<li class="Box" v-for="item in arr1"> 
+					<div class=" Img_R">
+						<img :src="item.imgUrl ">
+					</div>
+							
 						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
+							<p>{{item.name}} </p>
 							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
+							 	<span>{{item.price}}</span><em>{{item.originPrice}}</em>
 							 	<i><span class="icon icon-cart"></span></i>
 							 </div>
 						</div>
-					</div></li>
-
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-
-							 </div>
-						</div>
-					</div></li>
+					 </li>
 				</ul>
-
 		        </div>
 		      </div>
-		      <div id="tab2" class="tab">
+
+		      <div id="tab2" class="tab active">
 		        <div class="content-block">
-		          <div class="content-block">
-		           
 		          	<ul>
-					<li><div class="Box">
+					<li class="Box" v-for="item in arr2"> 
 						<div class="Img_R">
-							<a href="###"></a>
+							<img :src="item.imgUrl" >	
 						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-							 </div>
-						</div>
-					</div></li>
-					<li><div class="Box">
-						<div class="Img_R">
-							<a href="###"></a>
-						</div>
-						<div class="price">
-							<p>PAPA RECIPE 春雨蜂蜜面膜 10片</p>
-							 
-							 <div class="P_Man">
-							 	<span>$95.00</span><em>$149.00</em>
-							 	<i><span class="icon icon-cart"></span></i>
-
-							 </div>
-						</div>
-					</div></li>
+					</li>
 				</ul>
 
 		        </div>
 		        </div>
 		      </div>
-		      <div id="tab3" class="tab">
+		      <div id="tab3" class="tab active">
 		        <div class="content-block">
 		          <div class="content-block">
 		           
@@ -278,7 +134,7 @@
 		      </div>
 		       <div id="tab4" class="tab">
 		        <div class="content-block">
-		          <p>This is tab 4content</p>
+		          <p></p>
 		        </div>
 		      </div>
 		    </div>
@@ -287,8 +143,27 @@
 </template>
 
 <script>
+import Vue from 'vue'
 	export default{
 	name:'GoodsTab',
+	data(){
+		return{
+			arr1:""
+		}
+	},
+	created(){
+			Vue.axios.get("../static/json/list.json").then((res) =>{
+				console.log(res.data.data.groupList[0].duration[0].productList)
+				 return res.data.data 
+				 
+			}).then((data)=>{
+				 
+				this.arr1 =data.groupList[0].duration[0].productList;
+				this.arr2 =data.groupList[1].duration[1].productList;
+			})
+		}
+
+
 }
 </script>
 <style scoped>
@@ -297,7 +172,7 @@
 	p{
 		margin: 0;
 		padding: 0;
-	}
+	}ㅇ
 	em{
 		font-style: normal;
 		text-decoration:line-through;
@@ -317,6 +192,10 @@
 		height: 5rem;
 		background: #f00;
 		border-radius: .5rem;
+	}
+	.Img_R img{
+		width: 100%;
+		height: 100%;
 	}
 	.content-block{
 		margin: .2rem;
@@ -352,7 +231,7 @@
 		color: #fff;
 		font-weight: bold;
 		background: #FF6987;
-		margin-left: 3rem;
+		margin-left: 1.5rem;
 		margin-bottom: .3rem;
 	}
 </style>
