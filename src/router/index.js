@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import List from '@/components/list'
 import Goods from '@/components/Goods'
 import Test from '@/components/Test'
+import FindHeader from '@/components/FindHeader'
 import Search from '@/components/Search'
 import Home from '@/components/Home'
 Vue.use(Router)
@@ -47,6 +48,17 @@ export default new Router({
       path:'/Test',
       name:'Test',
       component:Test,
+      beforeEnter: (to, from, next) => {
+
+        document.getElementsByTagName("html")[0].style.fontSize = '20px'
+        next();
+        
+      }
+    },
+    {
+      path:'/FindHeader',
+      name:'FindHeader',
+      component:FindHeader,
       beforeEnter: (to, from, next) => {
 
         document.getElementsByTagName("html")[0].style.fontSize = '20px'

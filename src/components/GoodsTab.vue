@@ -57,7 +57,7 @@
 							<div class="price">
 								<p>{{item.name}} </p>
 								 <div class="P_Man">
-								 	<span>{{item.price}}</span><em>{{item.originPrice}}</em>
+								 	 <span>{{item.price }}</span> <em>{{item.originPrice }}</em>
 								 	<i><span class="icon icon-cart"></span></i>
 								 </div>
 							</div>
@@ -65,6 +65,19 @@
 						</ul>
 			        </div>
 			    </div>
+				
+				 <div id="tab4" class="tab">
+				        <div class="content-block">
+				          <ul>
+							 <li>
+							 筛选毛线，麻溜点回去！！！
+							 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1497587745962&di=5bc3ea166f8b5a23c1b1737766559d96&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201104%2F18%2F20110418171052_nkQsy.thumb.700_0.jpg" alt="" class="Img_li">
+								</li>
+							</ul>
+				        </div>
+				    </div>
+
+
 		    </div>
 		</div>
 	</div>
@@ -165,5 +178,9 @@ import Vue from 'vue'
 		background: #FF6987;
 		margin-left: 1.5rem;
 		margin-bottom: .3rem;
+	}
+	.Img_li{
+		width: 100vw;
+		height:40vh;
 	}
 </style>

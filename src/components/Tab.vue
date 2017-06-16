@@ -211,10 +211,6 @@
 				      </div>
 				    </div>
 				  </div>
-
-				
-
-
 				</div>
  
 </template>
@@ -243,7 +239,7 @@ import Vue from 'vue'
 			Vue.axios.get("../static/json/video.json").then( (res) =>{
 				// body... 
 				this.arr = res
-				console.log(this.arr );
+				 
 			})
 		}
 	}

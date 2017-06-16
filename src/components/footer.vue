@@ -3,24 +3,28 @@
 		<mt-tabbar v-model="selected">
 			<!-- <router-link to="/"> -->
 			  <mt-tab-item id="home">
-			  	
+			  	<router-link to="/">
 				  <i class="iconfont icon-shouye"></i>
 				    首页
-				
+				</router-link>
 			  </mt-tab-item>
 			<!-- </router-link> -->
 
 		  <!-- <router-link to="/List"> -->
 			  <mt-tab-item id="sort">
-				    <i class="iconfont icon-fenlei"></i>
-				    分类
+			  	<router-link to="/List">
+			  		<i  class="iconfont icon-fenlei" ></i>分类
+			  	</router-link>
+			 
 			  </mt-tab-item>
 		  <!-- </router-link> -->
 		  
 
 		  <mt-tab-item id="find">
+		   <router-link to="Test">
 		    <i class="iconfont icon-faxian"></i>
 		    发现
+			</router-link>
 		  </mt-tab-item>
 		  <mt-tab-item id="cart">
 		    <i class="iconfont icon-gouwuche"></i>
@@ -38,6 +42,9 @@
 	export default {
 	  name: 'Footer',
 	  data(){
+
+
+
 	  	return {
 	  		selected:"home"
 	  	}
