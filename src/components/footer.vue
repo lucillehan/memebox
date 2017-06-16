@@ -1,28 +1,40 @@
 <template>
 	<div class="footer">
 		<mt-tabbar v-model="selected">
-		  <mt-tab-item id="外卖">
-		    <img slot="icon" src="">
-		    外卖
-		  </mt-tab-item>
-		  <mt-tab-item id="订单">
-		    <img slot="icon" src="">
-		    订单
-		  </mt-tab-item>
-		  <mt-tab-item id="发现">
-		    <img slot="icon" src="">
+			<!-- <router-link to="/"> -->
+			  <mt-tab-item id="home">
+			  	
+				  <i class="iconfont icon-shouye"></i>
+				    首页
+				
+			  </mt-tab-item>
+			<!-- </router-link> -->
+
+		  <!-- <router-link to="/List"> -->
+			  <mt-tab-item id="sort">
+				    <i class="iconfont icon-fenlei"></i>
+				    分类
+			  </mt-tab-item>
+		  <!-- </router-link> -->
+		  
+
+		  <mt-tab-item id="find">
+		    <i class="iconfont icon-faxian"></i>
 		    发现
 		  </mt-tab-item>
-		  <mt-tab-item id="我的">
-		    <img slot="icon" @click="toggleLogin" src="">
-		        我的
-		    <mt-popup v-model="popupVisible" position='bottom' v-if="show">
-  				<div id="login">
-  					<!--<h1>跳转登录</h1>
-  					<button @click="close">关闭</button>-->
-  					<Login/>
-  				</div>
-			</mt-popup>
+		  
+		  <mt-tab-item id="cart">
+		    <i class="iconfont icon-gouwuche"></i>
+		    购物车
+		  </mt-tab-item>
+		  <mt-tab-item id="mine" >
+		    <i class="iconfont icon-xiaolian" @click="toggleLogin"></i>
+		   		 我哒
+			    <mt-popup v-model="popupVisible" position='bottom'>
+	  				<div id="login">
+	  					<Login @loginevent="getData"/>
+	  				</div>
+				</mt-popup>
 		  </mt-tab-item>
 		</mt-tabbar>
 	</div>
@@ -32,34 +44,34 @@
 	import Login from './Login.vue'
 	
 	export default {
-	  name: 'footer',
+	  name: 'Footer',
 	  data(){
 	  	return {
 	  		
-	  		selected:"外卖",
+	  		selected:"home",
 	  		
 	  		popupVisible:false,
 	  		
-	  		show:true
-	  		
 	  	}
 	  },
-	  
+	  mounted(){
+	  	console.log(this)
+	  	
+	  	
+	  },
 	  methods:{
 			
 		  toggleLogin(){
 		  	
-		  	console.log("ok");
-		  	
-		  	this.show=true;
-		  	
 			this.popupVisible=true;
 		  	
 		  },
-		  
-		  close(){
-		 	
-		  	this.show=false;
+
+		  getData(data){
+		  	
+		  	console.log(data)
+		  	
+		  	this.popupVisible=data
 		  	
 		  }
 		  
@@ -70,40 +82,30 @@
 	}
 </script>
 
-<style scoped="scoped">
+
+<style scoped>
 	.footer{
-	  height: 50px;
+	  height: .5rem;
+	  z-index: 10;
 	}
-	html{
-		font-size: 100px;
-	}
-	/*ul{
-		height: 100%;
-		display: flex;
-	}
-	ul li{
-		list-style: none;
-		
-	}
-	ul li  a{
-		display: block;
-		text-decoration: none;
-		color:#AAAAAA;
-		width: 100%;
-		height: 100%;
-	}
-	.active{
+	.footer .mint-tabbar .is-selected{
 		color:#FE5173;
 	}
-	ul li  a i{
+	.mint-tab-item{
+		padding: 0;
+		color: #b6b6b6;
+
+	}
+	.mint-tab-item-label i{
 		font-size: 27px;
 		display: block;
-		margin-top: 10px;
+		margin: 7px;
 	}
+
 	ul li  a span{
 		display: block;
 		font-size: 12px;
-	}*/
+	}
 	.v-modal{
 		
 		background: #dedede;
@@ -113,4 +115,10 @@
 		width: 100vw;height: 100vh;
 		
 	}
+	.iconfont{
+		font-weight: bold;
+		 
+
+	}
+	 
 </style>

@@ -1,63 +1,41 @@
 <template>
 	<div class="wrapper">
 		<div class="content">
-			<div class="logo-box">
-				<p class="logo-box-nav">
-					<router-link to="/">
-					<span class="close iconfont icon-guanbi1" @click="sendData">
-					</span>
-					</router-link>
-					<span class="toregister" @click="sendData">
-						<router-link to="/register">注册</router-link>
-					</span>
-				</p>
-				<ul class="loginway">
-					<li class="password-login">账号密码登录</li>
-					<li class="phone-login">手机号快捷登录</li>
-				</ul>
-			</div>
+			<mt-header title="注册">
+			  <router-link to="/login" slot="left">
+			    <mt-button icon="back"></mt-button>
+			  </router-link>
+			</mt-header>
+
 			<div class="form-box">               
 				<form>
-					<div class="num-box">
+					<div class="num-box" style="margin-top: 0;">
 						<span>手机号码</span>
-						<input type="text" id="num" v-model="username"/>
+						<input v-model="username" type="text" id="num" />
 					</div>
-					<div class="password-box">
-						<span>密码</span>
-						<input type="password" id="password" v-model="password"/>
-					</div>
-					<div id="submit" @click="loginData">
-						即刻登录 坐享花样美妆
-					</div>
-				
-					<p class="forget">
-						忘记密码？
-					</p>
-				</form>
-				<!--<form>
-					<div class="num-box">
-						<span>手机号码</span>
-						<input type="text" id="num" />
-					</div>
-					<div class="validate-box">
+					<div class="validate-box" style="margin-top: 0;">
 						<span>验证码</span>
 						<input type="text" id="" />
 						<b class="validate-btn">
 							获取验证码
 						</b>
 					</div>
+					<div class="password-box">
+						<span>密码</span>
+						<input v-model="password" type="password" id="password" />
+					</div>
 					<div class="invite-box">
 						<input type="checkbox" />
 						<span>我是被邀请来的</span>
 					</div>
-					<div id="submit" style="margin: 0;" @click="loginData">
+					<div id="submit" style="margin: 0;" @click="registerData">
 						即刻登录 坐享花样美妆
 					</div>
 					
 					<p class="tip">
 						登录即表示您已同意<b class="note">美美箱用户协议</b>
 					</p>
-				</form>-->
+				</form>
 				
 			</div>
 		</div>              
@@ -86,53 +64,99 @@
 			</div>
 		</div>
 	</div>
-</template>   
+	
+</template>
 
 <script>
+	
+import Vue from "vue"
+	
 export default {
 	
-  name: 'Login',
+  name: 'Register',
   
   data () {
   	
     return {
+    	
+      username: 'asd',
       
-      username:'',
-      
-      password:''
+      password:'123'
       
     }
     
   },
   
+   mounted(){
+	  	console.log(this.username)
+	  	console.log(this.password)
+	  	
+	  	
+   },
+  
   methods:{
 			
-		sendData(){
+		registerData(){
 			
-			this.$emit("loginevent",false)
+			console.log(this.username)
 			
+	  		console.log(this.password)
+	  		
+	  		var url='/api/shopdata/userinfo.php';
+	  		
+	  		if(this.username==''||this.password==''){
+	  			
+	  			alert("请输入用户名和密码")
+	  			
+	  		}else{
+	  			
+	  			var that=this;
+	  			
+	  			Vue.axios.post(url, {
+	  				status:"register",
+				    userID: that.username,
+				    password:that.password
+				  })
+				  .then(function (response) {
+				  	
+				  		console.log(that.username)
 			
-		},
-		
-		loginData(){
+	  					console.log(that.username)
+	  					
+					    console.log(response);
+						
+//						switch(text){
+//							
+//							case 0:alert("用户名重名");
+//							
+//							break;
+//							
+//							case 1:alert("注册成功");
+//							
+//							break;
+//							
+//							case 2:alert("数据库报错");
+//							
+//							break;
+//							
+//							}
+					
+				  })
+				  .catch(function (error) {
+				    console.log(error);
+				  });
+				  
 			
-			if(this.username==localStorage.username&&this.password==localStorage.password){
+				localStorage.username=this.username;
 				
-				alert("登录成功");
-				
-				this.$router.push('/');
-				
-				this.$emit("loginevent",false)
-				
-			}else{
-				
-				alert("您输入的用户名或密码不正确，请重新输入");
-				
-				this.username="";
-				
-				this.password="";
-				
-			}
+				localStorage.password=this.password;
+			
+				this.$router.push('/login');
+	  			
+	  			
+	  			
+	  		}
+			
 			
 		}
 		  
@@ -144,6 +168,7 @@ export default {
 </script>
 
 <style>
+	
 	body{
 		overflow-y: hidden;
 	
@@ -162,22 +187,18 @@ export default {
 	.wrapper{
 		width: 100vw;height: 100vh;
 		margin: 0;padding: 0;
-	  /*  background: #42B983;*/
+	 	font-size: 12px;
 	}
 
 	.wrapper .content{
 		width: 100%;
 		height: 4.41rem;
-	/*	background: #dedede;*/
 		position: static;
 	} 
 	
-	.wrapper .content .logo-box{
-		width: 100%;
-		height:1.505rem;
-		background: url(http://m.cn.memebox.com/images/app/my/include/css-user-bg.jpg) no-repeat center center;
-    	background-size: 100% 100%;
-		position: relative;
+	.wrapper .content .mint-header{
+		height:0.35rem ;
+		background: #f55481;
 	}
 	
 	.wrapper .content .logo-box .logo-box-nav{
@@ -195,7 +216,6 @@ export default {
 	
 		float: left;
 		margin-left: 0.2rem;
-		color: #fff;
 		
 	}
 	
@@ -204,11 +224,6 @@ export default {
 		float: right;
 		margin-right: 0.2rem;
 		
-	}
-	
-	.wrapper .content .logo-box .logo-box-nav .toregister a{
-		
-		color: #fff;
 	}
 	
 	.wrapper .content .logo-box .loginway{
@@ -327,6 +342,7 @@ export default {
 		width: 100%;
 		height: 0.49rem;
 		line-height: 0.49rem;
+		color: #d1d1d1;
 	}
 	
 	.wrapper .content .form-box .invite-box input,.wrapper .content .form-box .invite-box span{
@@ -347,6 +363,7 @@ export default {
 	
 	.wrapper .content .form-box .tip{
 		margin-top: 0.1rem;
+		text-align: center;
 		color: #afafaf;
 	}
 	
@@ -426,6 +443,5 @@ export default {
 	.wrapper .cooperation .img-box .icon-name{
 		color: #a5a5a5;
 	}
-	
 	
 </style>

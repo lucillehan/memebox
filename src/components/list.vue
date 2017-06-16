@@ -1,21 +1,25 @@
 <template>
-	<div class="home">
-		我是列表
-		
-	</div>
+<div class="ListBox">
+
+		<Search></Search>	
+		<Tab></Tab>
+		<Footer></Footer>
+</div>
+ 	
+
 </template>
 
 <script>
-// import Homeheader from "./HomeHeader.vue"
-// 首页：url="https://app.cn.memebox.com/h5/view/index?type=1&isNew=1"
+import Tab from './Tab.vue'
+import Search from './Search.vue'
+ import Footer from './Footer.vue'
 	export default{
 		name:'list',
-		components:{  }
+		components:{Tab,Search,Footer}
 	}	
 </script>
 
-<style>
-	.home{
-		flex:1;
-	}
+<style scoped> 
+ 
+ 
 </style>
