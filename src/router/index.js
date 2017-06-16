@@ -6,6 +6,7 @@ import Login from '@/components/Login'
 import Register from '@/components/Register'
 
 import Goods from '@/components/Goods'
+import Test from '@/components/Test'
 import Search from '@/components/Search'
 import Home from '@/components/Home'
 
@@ -57,7 +58,21 @@ export default new Router({
         next();
         
       }
-    } 
+
+    },
+    
+     {
+      path:'/Test',
+      name:'Test',
+      component:Test,
+      beforeEnter: (to, from, next) => {
+
+        document.getElementsByTagName("html")[0].style.fontSize = '20px'
+        next();
+        
+      }
+    }
+
 
   ]
 })

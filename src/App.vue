@@ -44,6 +44,7 @@ html,body{
   display: flex;
   flex-flow: column wrap;
   background: #fff;
+  overflow-y: scroll;
 }
 
 </style>
