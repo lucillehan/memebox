@@ -72,7 +72,7 @@
 
 <script>
 import Footer from "./Footer.vue"
-console.log(Footer)
+
 	export default{
 		name:'cart',
 		components:{ Footer },

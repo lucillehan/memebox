@@ -34,7 +34,7 @@
 			
 		</div>
 
-		<ul class="se-items">
+		<ul v-if="!flag" class="se-items">
 			<li v-for="item in dataList">
 				<div class="le-img">
 					<img :src="item.imgPc" alt="">
@@ -56,7 +56,6 @@
 
 <script>
 import Search from "./Search.vue"
-import Toast from "mint-ui"
 // 搜所结口https://search.cn.memebox.com/global/search?filter=1&order=1&q=%E5%8C%96%E5%A6%86%E6%A3%89&pageIndex=1
 export default{
 	name:"homesearch",
@@ -71,7 +70,7 @@ export default{
 		getData(res){
 			this.flag = false
 			this.dataList = res
-			console.log(res)
+			// console.log(res)
 		},
 		add(){
 			$.toast('操作成功！', 2345, 'success top');

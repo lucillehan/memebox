@@ -3,7 +3,7 @@
 		<Homeheader></Homeheader>
 		<section>
 			<mt-swipe :auto="4000">
-				<mt-swipe-item v-for="item in  ban"><img :src="item.banner_img"/></mt-swipe-item>
+				<mt-swipe-item :key="" v-for="item in  ban"><img :src="item.banner_img"/></mt-swipe-item>
 			</mt-swipe>
 		<ul class="menu">
 			<li v-if="menu[2]!=null"  v-for="item in  menu[2].items">
@@ -319,7 +319,7 @@ import Vue from "vue"
 				// console.log(res.data.data.components)
 				return res.data.data.components
 			}).then((data)=>{
-				console.log(data)
+				// console.log(data)
 				this.ban = data[0].items;
 				this.menu = data;
 				// this.tiaoqing = data;
@@ -345,7 +345,7 @@ import Vue from "vue"
 				// console.log(res)
 				return res.data.data.items
 			}).then((data)=>{
-				console.log(data)
+				// console.log(data)
 				this.tejia = data
 			})
 

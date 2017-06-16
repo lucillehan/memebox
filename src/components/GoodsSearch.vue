@@ -24,7 +24,7 @@
 
 <style scoped> 
 body{
-	font-size: 20px!important;	 
+	/*font-size: 20px!important;	 */
 }
 	.home{
 		flex:1;
