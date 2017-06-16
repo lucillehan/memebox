@@ -4,7 +4,7 @@ import Vue from 'vue'
 
 import App from './App'
 import router from './router'
-import { Swipe, SwipeItem, Tabbar, TabItem, Header, Button, Search, Cell, Navbar} from 'mint-ui'
+import { Swipe, SwipeItem, Tabbar, TabItem, Header, Button, Search, Cell, Navbar, Toast} from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
@@ -21,6 +21,7 @@ Vue.component(Header.name, Header);
 Vue.component(Button.name, Button);
 Vue.component(Search.name, Search);
 Vue.component(Cell.name, Cell);
+Vue.component(Toast.name, Toast);
  
 Vue.use(VueAxios, axios);
 
@@ -32,5 +33,5 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App,Swipe, SwipeItem,Tabbar, Navbar, TabItem,Header,Button,Search,Cell}
+  components: { App,Swipe, SwipeItem,Tabbar, Navbar, TabItem,Header,Button,Search,Cell,Toast}
 })
