@@ -1,11 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import List from '@/components/list'
+
+import Login from '@/components/Login'
+import Register from '@/components/Register'
+
 import Goods from '@/components/Goods'
 import Test from '@/components/Test'
 import FindHeader from '@/components/FindHeader'
 import Search from '@/components/Search'
 import Home from '@/components/Home'
+
 Vue.use(Router)
 
 export default new Router({
@@ -26,13 +31,24 @@ export default new Router({
     	path:'/list',
     	name:'List',
     	component:List,
-      beforeEnter: (to, from, next) => {
+    	beforeEnter: (to, from, next) => {
 
         document.getElementsByTagName("html")[0].style.fontSize = '20px'
         next();
         
       }
     },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
+    },
+    {
+      path: '/register',
+      name: 'Register',
+      component: Register
+    },
+
      {
       path:'/Goods',
       name:'Goods',
@@ -43,7 +59,9 @@ export default new Router({
         next();
         
       }
+
     },
+    
      {
       path:'/Test',
       name:'Test',
@@ -66,6 +84,7 @@ export default new Router({
         
       }
     }
+
 
   ]
 })

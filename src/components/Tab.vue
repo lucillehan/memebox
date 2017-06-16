@@ -299,7 +299,7 @@ import Vue from 'vue'
 		width: 100vw;
 		z-index: 20;
 	} 	
-	.price p{}
+	 
 
 
 </style>

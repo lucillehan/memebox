@@ -26,19 +26,27 @@
 		    发现
 			</router-link>
 		  </mt-tab-item>
+		  
 		  <mt-tab-item id="cart">
 		    <i class="iconfont icon-gouwuche"></i>
 		    购物车
 		  </mt-tab-item>
-		  <mt-tab-item id="mine">
-		    <i class="iconfont icon-xiaolian"></i>
-		    我哒
+		  <mt-tab-item id="mine" >
+		    <i class="iconfont icon-xiaolian" @click="toggleLogin"></i>
+		   		 我哒
+			    <mt-popup v-model="popupVisible" position='bottom'>
+	  				<div id="login">
+	  					<Login @loginevent="getData"/>
+	  				</div>
+				</mt-popup>
 		  </mt-tab-item>
 		</mt-tabbar>
 	</div>
 </template>
 
 <script>
+	import Login from './Login.vue'
+	
 	export default {
 	  name: 'Footer',
 	  data(){
@@ -46,12 +54,41 @@
 
 
 	  	return {
-	  		selected:"home"
+	  		
+	  		selected:"home",
+	  		
+	  		popupVisible:false,
+	  		
 	  	}
 	  },
+	  mounted(){
+	  	console.log(this)
+	  	
+	  	
+	  },
+	  methods:{
+			
+		  toggleLogin(){
+		  	
+			this.popupVisible=true;
+		  	
+		  },
+
+		  getData(data){
+		  	
+		  	console.log(data)
+		  	
+		  	this.popupVisible=data
+		  	
+		  }
+		  
+	  },
 	  
+	  components:{ Login }
+		  
 	}
 </script>
+
 
 <style scoped>
 	.footer{
@@ -71,9 +108,24 @@
 		display: block;
 		margin: 7px;
 	}
+
+	ul li  a span{
+		display: block;
+		font-size: 12px;
+	}
+	.v-modal{
+		
+		background: #dedede;
+		opacity: 1;
+	}
+	#login{
+		width: 100vw;height: 100vh;
+		
+	}
 	.iconfont{
 		font-weight: bold;
 		 
+
 	}
 	 
 </style>
