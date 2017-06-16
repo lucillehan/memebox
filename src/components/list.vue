@@ -27,11 +27,11 @@ import Footer from './Footer.vue'
 		created(){
 			 
 			Vue.axios.get("../static/json/GoodsTest.json").then( (res) =>{
-				console.log(res.data)
+				 
 				 return res.data.data 
 				 
 			}).then((data)=>{
-				 console.log( data)
+				 console.log( '❤帅帅超数据获取成功❤')
 				 
 			})
 		}
@@ -40,6 +40,5 @@ import Footer from './Footer.vue'
 </script>
 
 <style scoped> 
- 
  
 </style>

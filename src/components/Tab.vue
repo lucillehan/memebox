@@ -11,24 +11,24 @@
 				        <div class="content-block">
 				          <p> 
 				          <div class="content-block row content">
-						     <p class="col-33"><a href="#" class="button button-dark">面膜</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">洁面卸妆</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">防晒修护</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">遮瑕修容</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">基础底妆</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">眼部彩妆</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">唇部彩妆</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">眉部彩妆</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">精华精油</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">身体护理</a></p>
-						      <p class="col-33"><a href="#" class="button button-dark ">美发护发</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">口腔护理</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">美妆工具</a></p>
-						      <p class="col-33"><a href="#" class="button button-dark ">美甲护甲</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">水乳</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">面霜</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">眼唇护理</a></p>
-						     <p class="col-33"><a href="#" class="button button-dark ">套装礼盒</a></p>
+				          <p class="col-33"><span href="#" class="button button-dark" >面膜</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">洁面卸妆</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">防晒修护</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">遮瑕修容</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">基础底妆</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">眼部彩妆</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">唇部彩妆</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">眉部彩妆</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">精华精油</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">身体护理</span></p>
+						      <p class="col-33"><span href="#" class="button button-dark ">美发护发</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">口腔护理</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">美妆工具</span></p>
+						      <p class="col-33"><span href="#" class="button button-dark ">美甲护甲</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">水乳</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">面霜</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">眼唇护理</span></p>
+						     <p class="col-33"><span href="#" class="button button-dark ">套装礼盒</span></p>
 						  </div>
 						  </p>
 				        </div>
@@ -219,29 +219,8 @@
 import Vue from 'vue'
 	export default{
 		name:'Tab',
-		data(){
-			return {
-				arr:""
-			}
-		},
-		 created(){
-			// jsonp的方式
-			// var url = "https://api.douban.com/v2/book/1220562"
-			// jsonp(url,null,function (err,data) {
-			// 	if(err){
-			// 		console.log('数据无法获取')
-			// 	}else {
-					 
-			// 		console.log(data.tags)
-			// 		// console.log(data.tags.name)//返回的是空；
-			// 	}
-			// })
-			Vue.axios.get("../static/json/video.json").then( (res) =>{
-				// body... 
-				this.arr = res
-				 
-			})
-		}
+		 
+
 	}
 </script>
 

@@ -28,7 +28,7 @@ export default new Router({
       }
     },
     {
-    	path:'/list',
+    	path:'/List',
     	name:'List',
     	component:List,
     	beforeEnter: (to, from, next) => {
@@ -39,14 +39,22 @@ export default new Router({
       }
     },
     {
-      path: '/login',
+      path: '/Login',
       name: 'Login',
-      component: Login
+      component: Login,
+      beforeEnter:(to, from, next) => {
+         document.getElementsByTagName("html")[0].style.fontSize = '31.25vw'
+        next();
+      }
     },
     {
-      path: '/register',
+      path: '/Register',
       name: 'Register',
-      component: Register
+      component: Register,
+      beforeEnter:(to, from, next) => {
+         document.getElementsByTagName("html")[0].style.fontSize = '31.25vw'
+        next();
+      }
     },
 
      {
