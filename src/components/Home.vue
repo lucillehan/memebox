@@ -5,9 +5,6 @@
 			<mt-swipe :auto="4000">
 				<mt-swipe-item v-for="item in  ban"><img :src="item.banner_img"/></mt-swipe-item>
 			</mt-swipe>
-		
-		
-
 		<ul class="menu">
 			<li v-if="menu[2]!=null"  v-for="item in  menu[2].items">
 				<router-link to="">
@@ -682,7 +679,7 @@ import Vue from "vue"
 
 	}
 	.favor-list ul li{
-		width: 49%;
+		width: 44%;
 		padding: .1rem;
 		background: white;
 		margin-bottom: .1rem;

@@ -25,21 +25,17 @@ import Vue from 'vue'
 		name:'Search',
 		data(){
 			return {
-				val:''
+				val:'',
+				results:''
 			}
 		},
 		methods:{
 			send(){
-				console.log(this.val)
 				let url = `/global/search?filter=1&order=1&q=${this.val}&pageIndex=1`
 				Vue.axios.get(url).then(function(res){
-					console.log(res)
-					return res
-				}).then((data)=>{
-					// console.log(data)
-					// this.ban = data[0].items;
-					// this.menu = data;
-					
+					return res.data.product
+				}).then((res)=>{
+					this.$emit("sendData",res)
 				})
 			}
 		}
