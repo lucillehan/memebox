@@ -1,25 +1,40 @@
 <template>
 	<div class="footer">
 		<mt-tabbar v-model="selected">
-		  <mt-tab-item id="home">
-		  	
-			  <i class="iconfont icon-shouyeshouye"></i>
-			    首页
-			
-		  </mt-tab-item>
-		  <mt-tab-item id="sort">
-			    <i class="iconfont icon-fenlei"></i>
-			    分类
-		  </mt-tab-item>
-		  <mt-tab-item id="find">
-		    <i class="iconfont icon-fun"></i>
-		    发现
-		  </mt-tab-item>
+		    <mt-tab-item id="home">
+		        <i class="iconfont icon-shouyeshouye"></i>
+		        首页
+		    </mt-tab-item>
+
+
+
+		    <mt-tab-item id="sort">
+			    <router-link to="List">
+			    	<i class="iconfont icon-fenlei"></i>
+				    分类
+			    </router-link>
+			    
+		    </mt-tab-item>
 		  
+		  
+
+		    <mt-tab-item id="find">
+			    <router-link to="FindHeader">
+			        <i class="iconfont icon-faxian"></i>
+			        发现
+				</router-link>
+		    </mt-tab-item>
+		  
+
 		  <mt-tab-item id="cart">
-		    <i class="iconfont icon-gouwuche01"></i>
-		    购物车
+			   <router-link to="Cart">
+			   	   <i class="iconfont icon-gouwuche01"></i>
+			       购物车
+			   </router-link>
 		  </mt-tab-item>
+
+
+
 		  <mt-tab-item id="mine" >
 		    <i class="iconfont icon-xiaolian" @click="toggleLogin"></i>
 		   		 我哒
@@ -39,6 +54,9 @@
 	export default {
 	  name: 'Footer',
 	  data(){
+
+
+
 	  	return {
 	  		
 	  		selected:"home",

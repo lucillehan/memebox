@@ -23,9 +23,13 @@
 </script>
 
 <style scoped> 
+<<<<<<< HEAD
 body{
 	/*font-size: 20px!important;	 */
 }
+=======
+
+>>>>>>> eeaf4c88fa39d79606e8dc966f65750d36754cbc
 	.home{
 		flex:1;
 	}

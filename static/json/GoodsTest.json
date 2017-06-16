@@ -1,0 +1,236 @@
+{
+    "code": "1",
+    "data": {
+        "136": {
+            "name": "美美妆",
+            "url": "http://cn.memebox.com/meme-beauty",
+            "is_active": "1",
+            "subCate": {
+                "221": {
+                    "name": "I'M MEME",
+                    "url": "http://cn.memebox.com/meme-beauty/memebeauty-01",
+                    "is_active": "1"
+                },
+                "423": {
+                    "name": "NOONI专区",
+                    "url": "http://cn.memebox.com/meme-beauty/nooni",
+                    "is_active": "1"
+                },
+                "471": {
+                    "name": "美美妆热销产品",
+                    "url": "http://cn.memebox.com/meme-beauty/in",
+                    "is_active": "1"
+                },
+                "545": {
+                    "name": "PONY EFFECT",
+                    "url": "http://cn.memebox.com/meme-beauty/pony-effect-page-545",
+                    "is_active": "1"
+                }
+            }
+        },
+        "233": {
+            "name": "PONY",
+            "url": "http://cn.memebox.com/pony",
+            "is_active": "1",
+            "subCate": {
+                "860": {
+                    "name": "PONY EFFECT",
+                    "url": "http://cn.memebox.com/pony/pony-new-product860",
+                    "is_active": "1"
+                },
+                "3618": {
+                    "name": "热卖排行榜",
+                    "url": "http://cn.memebox.com/pony/-23835",
+                    "is_active": "1"
+                },
+                "3619": {
+                    "name": "PONY唇妆",
+                    "url": "http://cn.memebox.com/pony/pony-2",
+                    "is_active": "1"
+                },
+                "3620": {
+                    "name": "高颜值单品",
+                    "url": "http://cn.memebox.com/pony/-23837",
+                    "is_active": "1"
+                },
+                "3623": {
+                    "name": "PONY底妆",
+                    "url": "http://cn.memebox.com/pony/pony-3",
+                    "is_active": "1"
+                },
+                "3690": {
+                    "name": "PONY EFFECT 2017春季新品",
+                    "url": "http://cn.memebox.com/pony/pony-effect-2017",
+                    "is_active": "1"
+                },
+                "3760": {
+                    "name": "真正魔方气垫的完成式",
+                    "url": "http://cn.memebox.com/pony/-24599",
+                    "is_active": "1"
+                }
+            }
+        },
+        "287": {
+            "name": "直邮",
+            "url": "http://cn.memebox.com/k-beauty",
+            "is_active": "1",
+            "subCate": {
+                "1456": {
+                    "name": "直邮礼盒",
+                    "url": "http://cn.memebox.com/k-beauty/dsbox",
+                    "is_active": "1"
+                },
+                "1608": {
+                    "name": "韩国热卖套组专场",
+                    "url": "http://cn.memebox.com/k-beauty/hgrxtz",
+                    "is_active": "1"
+                },
+                "1656": {
+                    "name": "韩国免税店热卖",
+                    "url": "http://cn.memebox.com/k-beauty/dutyfree",
+                    "is_active": "1"
+                },
+                "1701": {
+                    "name": "夏季护肤",
+                    "url": "http://cn.memebox.com/k-beauty/suncare",
+                    "is_active": "1"
+                },
+                "1702": {
+                    "name": "夏季底妆",
+                    "url": "http://cn.memebox.com/k-beauty/base",
+                    "is_active": "1"
+                },
+                "1704": {
+                    "name": "面膜",
+                    "url": "http://cn.memebox.com/k-beauty/new-mask",
+                    "is_active": "1"
+                }
+            }
+        },
+        "533": {
+            "name": "极速仓",
+            "url": "http://cn.memebox.com/bestproduct",
+            "is_active": "1"
+        },
+        "1585": {
+            "name": "新货",
+            "url": "http://cn.memebox.com/songjoonggi",
+            "is_active": "1"
+        },
+        "1610": {
+            "name": "面膜",
+            "url": "http://cn.memebox.com/mmzq",
+            "is_active": "1",
+            "subCate": {
+                "1612": {
+                    "name": "Leaders/Mediheal专区",
+                    "url": "http://cn.memebox.com/mmzq/klmzq",
+                    "is_active": "1"
+                },
+                "1613": {
+                    "name": "Innisfree面膜专区",
+                    "url": "http://cn.memebox.com/mmzq/innzq",
+                    "is_active": "1"
+                },
+                "1675": {
+                    "name": "补水面膜专区",
+                    "url": "http://cn.memebox.com/mmzq/bsmm",
+                    "is_active": "1"
+                },
+                "1677": {
+                    "name": "美白面膜专区",
+                    "url": "http://cn.memebox.com/mmzq/mbzq",
+                    "is_active": "1"
+                },
+                "1678": {
+                    "name": "祛痘修复面膜专区",
+                    "url": "http://cn.memebox.com/mmzq/qdzq",
+                    "is_active": "1"
+                },
+                "1688": {
+                    "name": "动物面膜专区",
+                    "url": "http://cn.memebox.com/mmzq/animal",
+                    "is_active": "1"
+                }
+            }
+        },
+        "1681": {
+            "name": "I'M MEME",
+            "url": "http://cn.memebox.com/immeme",
+            "is_active": "1",
+            "subCate": {
+                "1810": {
+                    "name": "我爱眼妆",
+                    "url": "http://cn.memebox.com/immeme/wayz",
+                    "is_active": "1"
+                },
+                "1811": {
+                    "name": "我爱唇妆",
+                    "url": "http://cn.memebox.com/immeme/wacz",
+                    "is_active": "1"
+                },
+                "1812": {
+                    "name": "我爱底妆",
+                    "url": "http://cn.memebox.com/immeme/wadz",
+                    "is_active": "1"
+                },
+                "1813": {
+                    "name": "我爱腮红",
+                    "url": "http://cn.memebox.com/immeme/wash",
+                    "is_active": "1"
+                },
+                "1814": {
+                    "name": "我爱气垫",
+                    "url": "http://cn.memebox.com/immeme/waqd",
+                    "is_active": "1"
+                },
+                "1815": {
+                    "name": "我爱眉妆",
+                    "url": "http://cn.memebox.com/immeme/wamz",
+                    "is_active": "1"
+                },
+                "1816": {
+                    "name": "我爱卸妆",
+                    "url": "http://cn.memebox.com/immeme/waxz",
+                    "is_active": "1"
+                },
+                "1817": {
+                    "name": "我爱美甲",
+                    "url": "http://cn.memebox.com/immeme/wamj",
+                    "is_active": "1"
+                },
+                "1819": {
+                    "name": "我爱工具",
+                    "url": "http://cn.memebox.com/immeme/wagj",
+                    "is_active": "1"
+                },
+                "3615": {
+                    "name": "明星产品",
+                    "url": "http://cn.memebox.com/immeme/-24177",
+                    "is_active": "1"
+                },
+                "3616": {
+                    "name": "新品上市",
+                    "url": "http://cn.memebox.com/immeme/-24438",
+                    "is_active": "1"
+                },
+                "3748": {
+                    "name": "我爱哑光甜心气垫唇釉",
+                    "url": "http://cn.memebox.com/immeme/-24561",
+                    "is_active": "1"
+                },
+                "3759": {
+                    "name": "春妆",
+                    "url": "http://cn.memebox.com/immeme/-24562",
+                    "is_active": "1"
+                }
+            }
+        },
+        "1821": {
+            "name": "礼盒",
+            "url": "http://cn.memebox.com/lhmm",
+            "is_active": "1"
+        }
+    },
+    "message": "分类获取成功"
+}

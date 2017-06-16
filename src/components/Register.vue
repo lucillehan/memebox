@@ -175,7 +175,7 @@ export default {
 	}
 	
 	html{
-		font-size: 31.25vw!important;
+		 
 		font-family: "微软雅黑";
 	}
 	

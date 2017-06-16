@@ -7,6 +7,7 @@ import Register from '@/components/Register'
 
 import Goods from '@/components/Goods'
 import Test from '@/components/Test'
+import FindHeader from '@/components/FindHeader'
 import Search from '@/components/Search'
 import Home from '@/components/Home'
 import HomeSearch from '@/components/HomeSearch.vue'
@@ -30,7 +31,7 @@ export default new Router({
       }
     },
     {
-    	path:'/list',
+    	path:'/List',
     	name:'List',
     	component:List,
     	beforeEnter: (to, from, next) => {
@@ -40,14 +41,22 @@ export default new Router({
       }
     },
     {
-      path: '/login',
+      path: '/Login',
       name: 'Login',
-      component: Login
+      component: Login,
+      beforeEnter:(to, from, next) => {
+         document.getElementsByTagName("html")[0].style.fontSize = '31.25vw'
+        next();
+      }
     },
     {
-      path: '/register',
+      path: '/Register',
       name: 'Register',
-      component: Register
+      component: Register,
+      beforeEnter:(to, from, next) => {
+         document.getElementsByTagName("html")[0].style.fontSize = '31.25vw'
+        next();
+      }
     },
 
      {
@@ -81,7 +90,7 @@ export default new Router({
       beforeEnter: (to, from, next) => {
 
         document.getElementsByTagName("html")[0].style.fontSize = '20px'
-        next();
+        next()
         
       }
     },
@@ -91,9 +100,17 @@ export default new Router({
       component:Cart,
       beforeEnter: (to, from, next) => {
         document.getElementsByTagName("html")[0].style.fontSize = '100px'
-        next();
-        
       }
-    }
+    },
+    {
+          path:'/ ',
+          name:'FindHeader',
+          component:FindHeader,
+          beforeEnter: (to, from, next) => {
+
+            document.getElementsByTagName("html")[0].style.fontSize = '20px'
+            next()
+          }
+        }
   ]
 })
