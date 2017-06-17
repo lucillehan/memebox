@@ -10,7 +10,7 @@ import VueAxios from 'vue-axios'
 import "../static/iconfont.css"
 import { Swipe, SwipeItem,Tabbar, TabItem,Header,Button,Search,Cell, Navbar,Popup} from 'mint-ui'
 import '../static/style/font/close/iconfont.css'
-
+import ceshi1 from '@/components/ceshi1'
 
 
 Vue.component(Swipe.name, Swipe);
@@ -37,6 +37,12 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App,Swipe, SwipeItem,Tabbar, Navbar, TabItem,Header,Button,Search,Cell,Popup}
+  components: { App,Swipe, SwipeItem,Tabbar, Navbar, TabItem,Header,Button,Search,Cell,Popup},
 
+})
+new Vue({
+	el:'#Box',
+	data:{
+		title:"aaaaaa"
+	}
 })

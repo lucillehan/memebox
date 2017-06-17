@@ -74,7 +74,7 @@
 import Footer from "./Footer.vue"
 
 	export default{
-		name:'cart',
+		name:'Cart',
 		components:{ Footer },
 		data(){
 			return {
@@ -262,7 +262,7 @@ import Footer from "./Footer.vue"
 	.cacu span{
 		display: inline-block;
 		width: .38rem;
-		height: .36rem;
+		height: .38rem;
 		border-top:1px solid #C9C9C9;
 		border-bottom:1px solid #C9C9C9;
 		vertical-align: middle;

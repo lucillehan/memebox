@@ -10,9 +10,9 @@ import Test from '@/components/Test'
 import FindHeader from '@/components/FindHeader'
 import Search from '@/components/Search'
 import Home from '@/components/Home'
-import HomeSearch from '@/components/HomeSearch.vue'
+import HomeSearch from '@/components/HomeSearch'
 import Cart from '@/components/Cart'
-
+import ceshi1 from '@/components/ceshi1'
 
 Vue.use(Router)
 
@@ -94,18 +94,31 @@ export default new Router({
         
       }
     },
-     {
+    {
       path:'/Cart',
       name:'Cart',
       component:Cart,
       beforeEnter: (to, from, next) => {
+
         document.getElementsByTagName("html")[0].style.fontSize = '100px'
+        next()
+        
       }
     },
     {
-          path:'/ ',
+          path:'/FindHeader',
           name:'FindHeader',
           component:FindHeader,
+          beforeEnter: (to, from, next) => {
+
+            document.getElementsByTagName("html")[0].style.fontSize = '20px'
+            next()
+          }
+        },
+    {
+          path:'/ceshi1',
+          name:'ceshi1',
+          component:ceshi1,
           beforeEnter: (to, from, next) => {
 
             document.getElementsByTagName("html")[0].style.fontSize = '20px'

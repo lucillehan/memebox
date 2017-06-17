@@ -151,14 +151,18 @@ import Vue from 'vue'
 		position: absolute;
 		left: 6rem;
 		border-bottom: .02rem solid #F2F2F2;
+		width: 60%;
 	}
 	.price .P_Man{
 		margin-top: 1.5rem;
+
 	}
 	ul li{
 		list-style: none; 
 		margin-bottom:5rem;
 		height: 1rem;
+		position: relative;
+		
 	}
 	.buttons-tab{
 	    position: fixed;
@@ -166,6 +170,9 @@ import Vue from 'vue'
 	    z-index: 10;
 	}
 	.P_Man i{
+		position: absolute;
+		right: 10%;
+		top: 40%;
 		display: inline-block;
 		width: 1.6rem;
 		height:1.6rem;

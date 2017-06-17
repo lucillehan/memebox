@@ -11,24 +11,24 @@
 				        <div class="content-block">
 				          <p> 
 				          <div class="content-block row content">
-				          <p class="col-33"><span href="#" class="button button-dark" >面膜</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">洁面卸妆</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">防晒修护</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">遮瑕修容</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">基础底妆</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">眼部彩妆</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">唇部彩妆</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">眉部彩妆</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">精华精油</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">身体护理</span></p>
-						      <p class="col-33"><span href="#" class="button button-dark ">美发护发</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">口腔护理</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">美妆工具</span></p>
-						      <p class="col-33"><span href="#" class="button button-dark ">美甲护甲</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">水乳</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">面霜</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">眼唇护理</span></p>
-						     <p class="col-33"><span href="#" class="button button-dark ">套装礼盒</span></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark" >面膜</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">洁面卸妆</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">防晒修护</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">遮瑕修容</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">基础底妆</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">眼部彩妆</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">唇部彩妆</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">眉部彩妆</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">精华精油</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">身体护理</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">美发护发</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">口腔护理</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">美妆工具</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">美甲护甲</span></router-link></p>
+				          	<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">水乳</span></router-link></p>
+				          		<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">面霜</span></router-link></p>
+				          			<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">眼唇护理</span></router-link></p>
+				          			<p class="col-33"><router-link to="Goods"><span href="#" class="button button-dark ">套装礼盒</span></router-link></p>
 						  </div>
 						  </p>
 				        </div>

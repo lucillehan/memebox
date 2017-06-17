@@ -679,7 +679,7 @@ import Vue from "vue"
 
 	}
 	.favor-list ul li{
-		width: 44%;
+		width: 49%;
 		padding: .1rem;
 		background: white;
 		margin-bottom: .1rem;

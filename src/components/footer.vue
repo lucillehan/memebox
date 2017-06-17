@@ -2,8 +2,10 @@
 	<div class="footer">
 		<mt-tabbar v-model="selected">
 		    <mt-tab-item id="home">
-		        <i class="iconfont icon-shouyeshouye"></i>
-		        首页
+			    	 <router-link to="/">
+			        <i class="iconfont icon-shouyeshouye"></i>
+			        首页
+		        </router-link>
 		    </mt-tab-item>
 
 
@@ -20,7 +22,7 @@
 
 		    <mt-tab-item id="find">
 			    <router-link to="FindHeader">
-			        <i class="iconfont icon-faxian"></i>
+			        <i class="iconfont icon-fun"></i>
 			        发现
 				</router-link>
 		    </mt-tab-item>
