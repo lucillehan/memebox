@@ -28,9 +28,9 @@
 		    购物车
 		  </mt-tab-item>
 		  <mt-tab-item id="mine" >
-		    <i class="iconfont icon-xiaolian" @click="toggleLogin"></i>
+		    <i class="iconfont icon-xiaolian" @click="toggle"></i>
 		   		 我哒
-			    <mt-popup v-model="popupVisible" position='bottom'>
+			    <mt-popup v-model="popupVisible" position='bottom' v-if="showlogin">
 	  				<div id="login">
 	  					<Login @loginevent="getData"/>
 	  				</div>
@@ -52,16 +52,32 @@
 	  		
 	  		popupVisible:false,
 	  		
+	  		showlogin:true
+	  	
+	  		
 	  	}
 	  },
 	  mounted(){
-	  	console.log(this)
-	  	
+	 
 	  	
 	  },
 	  methods:{
 			
-		  toggleLogin(){
+		  toggle(){
+		  	
+		  	if(localStorage.username){
+		  		
+		  		this.showlogin=false;
+		  		
+		  		this.$router.push('/user');
+		  		
+		  	}else{
+		  		
+		  		this.showlogin=true;
+				
+				this.popupVisible=true;
+		  		
+		  	}
 		  	
 			this.popupVisible=true;
 		  	

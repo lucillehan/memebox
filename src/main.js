@@ -11,7 +11,7 @@ import 'mint-ui/lib/style.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import '../static/style/font/close/iconfont.css'
-
+import '../static/style/font/user/iconfont.css'
 
 
 

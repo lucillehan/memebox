@@ -4,6 +4,7 @@ import List from '@/components/list'
 
 import Login from '@/components/Login'
 import Register from '@/components/Register'
+import User from '@/components/User'
 
 import Goods from '@/components/Goods'
 import Test from '@/components/Test'
@@ -47,7 +48,11 @@ export default new Router({
       name: 'Register',
       component: Register
     },
-
+    {
+      path: '/user',
+      name: 'User',
+      component: User
+    },
      {
       path:'/Goods',
       name:'Goods',
