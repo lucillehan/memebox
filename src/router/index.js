@@ -8,8 +8,12 @@ import User from '@/components/User'
 
 import Goods from '@/components/Goods'
 import Test from '@/components/Test'
+import FindHeader from '@/components/FindHeader'
 import Search from '@/components/Search'
 import Home from '@/components/Home'
+import HomeSearch from '@/components/HomeSearch'
+import Cart from '@/components/Cart'
+import ceshi1 from '@/components/ceshi1'
 
 Vue.use(Router)
 
@@ -28,25 +32,32 @@ export default new Router({
       }
     },
     {
-    	path:'/list',
+    	path:'/List',
     	name:'List',
     	component:List,
     	beforeEnter: (to, from, next) => {
-
         document.getElementsByTagName("html")[0].style.fontSize = '20px'
         next();
         
       }
     },
     {
-      path: '/login',
+      path: '/Login',
       name: 'Login',
-      component: Login
+      component: Login,
+      beforeEnter:(to, from, next) => {
+         document.getElementsByTagName("html")[0].style.fontSize = '31.25vw'
+        next();
+      }
     },
     {
-      path: '/register',
+      path: '/Register',
       name: 'Register',
-      component: Register
+      component: Register,
+      beforeEnter:(to, from, next) => {
+         document.getElementsByTagName("html")[0].style.fontSize = '31.25vw'
+        next();
+      }
     },
     {
       path: '/user',
@@ -67,17 +78,57 @@ export default new Router({
     },
     
      {
-      path:'/Test',
-      name:'Test',
-      component:Test,
+      path:'/HomeSearch',
+      name:'HomeSearch',
+      component:HomeSearch,
       beforeEnter: (to, from, next) => {
 
         document.getElementsByTagName("html")[0].style.fontSize = '20px'
         next();
         
       }
-    }
+    },
+    {
+      path:'/Test',
+      name:'Test',
+      component:Test,
+      beforeEnter: (to, from, next) => {
 
+        document.getElementsByTagName("html")[0].style.fontSize = '20px'
+        next()
+        
+      }
+    },
+    {
+      path:'/Cart',
+      name:'Cart',
+      component:Cart,
+      beforeEnter: (to, from, next) => {
 
+        document.getElementsByTagName("html")[0].style.fontSize = '100px'
+        next()
+        
+      }
+    },
+    {
+          path:'/FindHeader',
+          name:'FindHeader',
+          component:FindHeader,
+          beforeEnter: (to, from, next) => {
+
+            document.getElementsByTagName("html")[0].style.fontSize = '20px'
+            next()
+          }
+        },
+    {
+          path:'/ceshi1',
+          name:'ceshi1',
+          component:ceshi1,
+          beforeEnter: (to, from, next) => {
+
+            document.getElementsByTagName("html")[0].style.fontSize = '20px'
+            next()
+          }
+        }
   ]
 })

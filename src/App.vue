@@ -14,15 +14,13 @@
 </script>
 
 <style>
+ 
 *{
   padding: 0;
   margin:0;
 }
 html{
-
-  font-size: 100px;
-
-
+  font-size:100vw;
   
 }
 html,body{

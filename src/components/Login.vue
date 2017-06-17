@@ -150,7 +150,11 @@ export default {
 	}
 	
 	html{
-		font-size: 31.25vw!important;
+<<<<<<< HEAD
+		/*font-size: 31.25vw!important;*/
+=======
+		 
+>>>>>>> eeaf4c88fa39d79606e8dc966f65750d36754cbc
 		font-family: "微软雅黑";
 	}
 	

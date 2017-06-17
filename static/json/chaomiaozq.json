@@ -1,0 +1,102 @@
+{
+    "code": 1,
+    "msg": "正在活动中",
+    "data": {
+        "secKillLeftTime": 4284000,
+        "productList": [
+            {
+                "groupId": "41",
+                "durationId": "156",
+                "productId": "18273",
+                "name": "香水身体乳 紫色香水",
+                "brandName": "ON THE BODY",
+                "price": "58.00",
+                "originPrice": "79.00",
+                "secKillPrice": "49.00",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-__6_47.jpg",
+                "warehouse": 2,
+                "hasOptions": "0",
+                "options": [],
+                "seckillStock": 1
+            },
+            {
+                "groupId": "41",
+                "durationId": "156",
+                "productId": "24538",
+                "name": "户外运动沙滩防晒喷雾SPF30+170ml",
+                "brandName": "Blue Lizard 蓝蜥蜴",
+                "price": "99.00",
+                "originPrice": "150.00",
+                "secKillPrice": "85.00",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_209_15.jpg",
+                "warehouse": 2,
+                "hasOptions": "0",
+                "options": [],
+                "seckillStock": 1
+            },
+            {
+                "groupId": "41",
+                "durationId": "156",
+                "productId": "18215",
+                "name": "高浓缩B5玻尿酸面霜",
+                "brandName": "AHC",
+                "price": "209.00",
+                "originPrice": "398.00",
+                "secKillPrice": "189.00",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/a/h/ahc_b5_.jpg",
+                "warehouse": 2,
+                "hasOptions": "0",
+                "options": [],
+                "seckillStock": 1
+            },
+            {
+                "groupId": "41",
+                "durationId": "156",
+                "productId": "23045",
+                "name": "春雨 蜂蜜洗面奶 120ml",
+                "brandName": "PAPA RECIPE",
+                "price": "69.00",
+                "originPrice": "89.00",
+                "secKillPrice": "59.00",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_210_4.jpg",
+                "warehouse": 2,
+                "hasOptions": "0",
+                "options": [],
+                "seckillStock": 1
+            },
+            {
+                "groupId": "41",
+                "durationId": "156",
+                "productId": "5810",
+                "name": "香蕉遮瑕笔",
+                "brandName": "SKINFOOD 思亲肤",
+                "price": "39.00",
+                "originPrice": "59.00",
+                "secKillPrice": "9.90",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_206_12.jpg",
+                "warehouse": 2,
+                "hasOptions": "1",
+                "options": [
+                    {
+                        "option_id": "2280",
+                        "title": "#1号 明亮肤色",
+                        "sku": "C040112",
+                        "value": "8119",
+                        "qty": 58,
+                        "disabled": 0
+                    },
+                    {
+                        "option_id": "2280",
+                        "title": "#2号 自然肤色",
+                        "sku": "C040002",
+                        "value": "8120",
+                        "qty": 33,
+                        "disabled": 0
+                    }
+                ],
+                "seckillStock": 0
+            }
+        ],
+        "secKillStatus": 3
+    }
+}

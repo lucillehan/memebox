@@ -1,0 +1,139 @@
+{
+    "code": "1",
+    "msg": "获取成功",
+    "data": {
+        "hasNext": 1,
+        "items": [
+            {
+                "productId": "18216",
+                "brandName": "AHC",
+                "name": "冰点B5玻尿酸安瓶精华 8ml*8",
+                "sku": "C170062",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/a/h/ahc-_b5_.jpg",
+                "originPrice": "399.00",
+                "price": "299.00",
+                "warehouse": 2,
+                "productLabels": []
+            },
+            {
+                "productId": "18501",
+                "brandName": "peripera 菲丽菲拉",
+                "name": "棉花糖气垫腮红 20ml",
+                "sku": "CO79",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/2/-/2--_-20ml_1_1.jpg",
+                "originPrice": "89.00",
+                "price": "69.00",
+                "warehouse": 2,
+                "productLabels": []
+            },
+            {
+                "productId": "18495",
+                "brandName": "peripera 菲丽菲拉",
+                "name": "魅惑墨水唇彩",
+                "sku": "CO78",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/i/_ink__5.jpg",
+                "originPrice": "67.00",
+                "price": "55.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "15559",
+                "brandName": "MISSHA 谜尚",
+                "name": "LINE FRIENDS 萌动指尖艺术美甲贴[布朗熊][恋朋限量版]",
+                "sku": "C140044",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_165_2.jpg",
+                "originPrice": "49.00",
+                "price": "29.00",
+                "warehouse": 2,
+                "productLabels": []
+            },
+            {
+                "productId": "17123",
+                "brandName": "innisfree 悦诗风吟",
+                "name": "绿茶爽肤水（平衡型）200ml",
+                "sku": "C090026",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/2/3/23._200ml.jpg",
+                "originPrice": "115.00",
+                "price": "109.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "14822",
+                "brandName": "AIDA",
+                "name": "奇妙瘦腿贴",
+                "sku": "50006465",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/5/0/50006465.jpg",
+                "originPrice": "288.00",
+                "price": "140.00",
+                "warehouse": 8,
+                "productLabels": []
+            },
+            {
+                "productId": "11440",
+                "brandName": "LANEIGE 兰芝",
+                "name": "水润淡彩护唇膏",
+                "sku": "DS371",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/-/_-1_-__5.jpg",
+                "originPrice": "176.00",
+                "price": "159.00",
+                "warehouse": 8,
+                "productLabels": []
+            },
+            {
+                "productId": "17884",
+                "brandName": "THE SAEM 得鲜",
+                "name": "三色珠光眼影",
+                "sku": "CO21",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_199_77.jpg",
+                "originPrice": "75.00",
+                "price": "59.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            },
+            {
+                "productId": "23045",
+                "brandName": "PAPA RECIPE",
+                "name": "春雨 蜂蜜洗面奶 120ml",
+                "sku": "C120247",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/f/i/file_210_4.jpg",
+                "originPrice": "89.00",
+                "price": "69.00",
+                "warehouse": 2,
+                "productLabels": []
+            },
+            {
+                "productId": "21419",
+                "brandName": "NATURE REPUBLIC 自然共和国",
+                "name": "芦荟舒缓保湿凝胶 92%* 3个",
+                "sku": "CBD660",
+                "imgUrl": "http://img-cn1001.memebox.com/media/catalog/product/cache/0/thumbnail/255x255/9df78eab33525d08d6e5fb8d27136e95/_/9/_92_3ge_3_.jpg",
+                "originPrice": "134.00",
+                "price": "79.00",
+                "warehouse": 2,
+                "productLabels": [
+                    {
+                        "text": "爆款",
+                        "color": "#ff7e28"
+                    }
+                ]
+            }
+        ]
+    }
+}

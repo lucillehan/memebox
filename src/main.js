@@ -4,14 +4,16 @@ import Vue from 'vue'
 
 import App from './App'
 import router from './router'
-
-import { Swipe, SwipeItem,Tabbar, TabItem,Header,Button,Search,Cell, Navbar,Popup} from 'mint-ui'
-
 import 'mint-ui/lib/style.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import "../static/iconfont.css"
+import { Swipe, SwipeItem,Tabbar, TabItem,Header,Button,Search,Cell, Navbar,Popup} from 'mint-ui'
 import '../static/style/font/close/iconfont.css'
+
 import '../static/style/font/user/iconfont.css'
+
+import ceshi1 from '@/components/ceshi1'
 
 
 
@@ -39,7 +41,12 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
+  components: { App,Swipe, SwipeItem,Tabbar, Navbar, TabItem,Header,Button,Search,Cell,Popup},
 
-  components: { App,Swipe, SwipeItem,Tabbar, Navbar, TabItem,Header,Button,Search,Cell,Popup}
-
+})
+new Vue({
+	el:'#Box',
+	data:{
+		title:"aaaaaa"
+	}
 })
