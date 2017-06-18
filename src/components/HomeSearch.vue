@@ -73,7 +73,8 @@ export default{
 			// console.log(res)
 		},
 		add(){
-			$.toast('操作成功！', 2345, 'success top');
+			// $.toast('操作成功！', 2345, 'success top');
+			$.toast('操作成功!', 2345, 'success top');
 		}
 	}
 }

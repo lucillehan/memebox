@@ -2,17 +2,7 @@
  
 <div class="bar bar-header-secondary">
 
-			<!-- <mt-search
-		  v-model="value"
-		  cancel-text="取消"
-		  placeholder="搜索">
-
-		</mt-search> -->
-
 		  <div class="searchbar se">
-  
-		    <!-- <a class="searchbar-cancel">取消</a> -->
- 
 		    <div class="search-input">
 
 		      <label class="icon icon-search" for="search"></label>
@@ -49,10 +39,7 @@ import Vue from 'vue'
 						alert("未搜索到相关数据")
 					}
 				}).then((res)=>{
-					
 						this.$emit("sendData",res)
-					
-					
 				})
 			}
 		}
