@@ -10,7 +10,11 @@ import VueAxios from 'vue-axios'
 import "../static/iconfont.css"
 import { Swipe, SwipeItem,Tabbar, TabItem,Header,Button,Search,Cell, Navbar,Popup} from 'mint-ui'
 import '../static/style/font/close/iconfont.css'
+
+import '../static/style/font/user/iconfont.css'
+
 import ceshi1 from '@/components/ceshi1'
+
 
 
 Vue.component(Swipe.name, Swipe);
