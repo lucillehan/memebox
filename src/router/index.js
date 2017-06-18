@@ -120,15 +120,16 @@ export default new Router({
             next()
           }
         },
-    {
-          path:'/ceshi1',
-          name:'ceshi1',
-          component:ceshi1,
-          beforeEnter: (to, from, next) => {
+        {
+      path:'/User',
+      name:'User',
+      component:User,
+      beforeEnter: (to, from, next) => {
 
-            document.getElementsByTagName("html")[0].style.fontSize = '20px'
-            next()
-          }
-        }
+        document.getElementsByTagName("html")[0].style.fontSize = '31.25vw'
+        next()
+        
+      }
+    },
   ]
 })

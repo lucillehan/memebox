@@ -1,6 +1,6 @@
 <template>
 	
-<div>
+<div class="Sup_Box">
 	
 <header class="bar bar-nav">
   <h1 class="title">meimeix</h1>
@@ -136,5 +136,14 @@ import Footer from './Footer.vue'
       }
       .Centent{
       	margin-top:3rem; 
+      }
+      .facebook-card .facebook-name{
+        height: 1.5rem;
+      }
+      .Sup_Box{
+        overflow-y: scroll;
+      }
+      .Sup_Box .bar-nav{
+        position: fixed;
       }
 </style>

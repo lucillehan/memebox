@@ -138,6 +138,7 @@ import Vue from 'vue'
 		background: #f00;
 		border-radius: .5rem;
 	}
+
 	.Img_R img{
 		width: 100%;
 		height: 100%;
@@ -152,6 +153,7 @@ import Vue from 'vue'
 		left: 6rem;
 		border-bottom: .02rem solid #F2F2F2;
 		width: 60%;
+		top: 2rem;
 	}
 	.price .P_Man{
 		margin-top: 1.5rem;
@@ -172,7 +174,7 @@ import Vue from 'vue'
 	.P_Man i{
 		position: absolute;
 		right: 10%;
-		top: 40%;
+		top: 5%;
 		display: inline-block;
 		width: 1.6rem;
 		height:1.6rem;
@@ -187,7 +189,8 @@ import Vue from 'vue'
 		margin-bottom: .3rem;
 	}
 	.Img_li{
-		width: 100vw;
+		width: 95vw;
 		height:40vh;
+		margin-top:1rem;
 	}
 </style>

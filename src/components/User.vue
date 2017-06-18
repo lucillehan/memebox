@@ -164,12 +164,6 @@ export default {
 	body{
 		overflow-y: hidden;
 	}
-	
-	html{
-		font-size: 31.25vw!important;
-		font-family: "微软雅黑";
-	}
-	
 	.us-wrapper{
 		width: 100vw;
 		height: 100vh;
@@ -343,5 +337,14 @@ export default {
 		background: #fff;
 		margin-top: 0.085rem;
 		
+	}
+	.us-status li div{
+		height: 2.5vw;
+	}
+	.us-infobox-title li div{
+		height: 5.5vw;
+	}
+	.us-infobox-title{
+		padding-left: 7vw;
 	}
 </style>

@@ -2,7 +2,7 @@
 	<div class="cart">
 		<mt-header title="购物车">
 		  <div slot="left">
-		    <mt-button v-link="'/'" icon="back"></mt-button>
+		    <mt-button v-link="'/'" icon="back" onclick="history.back()" ></mt-button>
 		  </div>
 		</mt-header>
 		

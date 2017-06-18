@@ -410,7 +410,7 @@ import Vue from "vue"
 		overflow: auto;
 	}
 	.mint-swipe{
-		height: 1.8rem;
+		height: 1.8rem!important;
 	}
 	.mint-header-button{
 		display: inline-block;
@@ -725,5 +725,16 @@ import Vue from "vue"
 	.price-box del{
 		color: #C0C0C0;
 		font-size: .12rem;
+	}
+
+	.mint-swipe-item img{
+		width: 100%;
+		height: 100%;
+	}
+	.mint-swipe-indicators{
+		bottom: 10px;
+	}
+	.mint-swipe-items-wrap{
+		height: 55vw;
 	}
 </style>
